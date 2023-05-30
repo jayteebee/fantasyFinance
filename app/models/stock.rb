@@ -1,5 +1,4 @@
 class Stock < ApplicationRecord
-  belongs_to :industry
   has_many :watchlist_stocks
   has_many :watchlists, through: :watchlist_stocks
   has_many :holdings

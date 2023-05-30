@@ -9,10 +9,11 @@
 seed_data = JSON.parse(File.read('db/seed_data.json'))
 
 seed_data.each do |industry_data|
+    
+
 industry_name = industry_data['industry']
-
 industry = Industry.find_or_create_by!(name: industry_name)
-
+puts "Created industry: #{industry.name}"
 stocks = industry_data['stocks']
 
 stocks.each do |stock_data|
@@ -21,7 +22,7 @@ stocks.each do |stock_data|
 
 
     stock = Stock.find_or_create_by!(
-        companyName: stock_name,
+        company_name: stock_name,
         symbol: ticker_symbol,
     )
 

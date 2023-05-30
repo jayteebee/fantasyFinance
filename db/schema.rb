@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_30_143911) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_30_152547) do
   create_table "holdings", force: :cascade do |t|
     t.integer "User_id", null: false
     t.integer "Stock_id", null: false
@@ -48,8 +48,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_143911) do
     t.integer "Quarterly_Revenue_Growth_YOY"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "industry_id", null: false
-    t.index ["industry_id"], name: "index_stocks_on_industry_id"
   end
 
   create_table "trades", force: :cascade do |t|
@@ -97,7 +95,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_143911) do
   add_foreign_key "holdings", "Users"
   add_foreign_key "industry_stocks", "industries"
   add_foreign_key "industry_stocks", "stocks"
-  add_foreign_key "stocks", "industries"
   add_foreign_key "trades", "Stocks"
   add_foreign_key "trades", "Users"
   add_foreign_key "watchlist_stocks", "stocks"
