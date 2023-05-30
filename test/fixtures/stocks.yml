@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company_name: MyString
+  symbol: MyString
+  exchange: MyString
+  sector: MyString
+  market_capitalization: 1
+  description: MyString
+  Quarterly_Earnings_Growth_YOY: 1
+  Quarterly_Revenue_Growth_YOY: 1
+
+two:
+  company_name: MyString
+  symbol: MyString
+  exchange: MyString
+  sector: MyString
+  market_capitalization: 1
+  description: MyString
+  Quarterly_Earnings_Growth_YOY: 1
+  Quarterly_Revenue_Growth_YOY: 1
