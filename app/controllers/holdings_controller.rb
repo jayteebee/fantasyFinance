@@ -6,7 +6,7 @@ class HoldingsController < ApplicationController
 
     def specific_holding
         @user = User.find(params[:user_id])
-        @holdings = @user.holdings.stock
+        @holdings = @user.holdings.find(params[:holding_id])
     end
 
 end
