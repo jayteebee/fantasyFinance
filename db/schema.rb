@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_30_152547) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_30_202738) do
   create_table "holdings", force: :cascade do |t|
     t.integer "User_id", null: false
     t.integer "Stock_id", null: false
@@ -89,6 +89,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_152547) do
     t.string "stock_symbol"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id", null: false
+    t.index ["user_id"], name: "index_watchlists_on_user_id"
   end
 
   add_foreign_key "holdings", "Stocks"
@@ -99,4 +101,5 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_152547) do
   add_foreign_key "trades", "Users"
   add_foreign_key "watchlist_stocks", "stocks"
   add_foreign_key "watchlist_stocks", "watchlists"
+  add_foreign_key "watchlists", "users"
 end

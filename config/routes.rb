@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # # For Users Controller
 
   # ## GET
-  get "user/:user_id/profile", to: "users#profile"
+  get "user/:user_id/profile", to: "users#show_profile"
   # get "user/:user_id/personal_details" to: "users#personal_details"
   # get "user/:user_id/card_details" to: "users#card_details"
   # get "user/:user_id/trading_details" to: "users#trading_details"
@@ -26,7 +26,7 @@ Rails.application.routes.draw do
   # put "user/:user_id/trading_details", to: "users#trading_details"
 
   # ## DELETE
-  delete "user/:user_id/profile", to: "users#profile"
+  delete "user/:user_id/profile", to: "users#delete_profile"
   # delete "user/:user_id/personal_details", to: "users#personal_details"
   # delete "user/:user_id/card_details", to: "users#card_details"
   # delete "user/:user_id/trading_details", to: "users#trading_details"
