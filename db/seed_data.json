@@ -1,0 +1,5782 @@
+[
+    {
+      "industry": "Technology",
+      "stocks": [
+        {
+          "companyName": "Apple Inc",
+          "tickerSymbol": "AAPL"
+        },
+        {
+          "companyName": "Microsoft Corporation",
+          "tickerSymbol": "MSFT"
+        },
+        {
+          "companyName": "Amazon.com Inc",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Alphabet Inc",
+          "tickerSymbol": "GOOGL"
+        },
+        {
+          "companyName": "Facebook Inc",
+          "tickerSymbol": "FB"
+        },
+        {
+          "companyName": "Tesla Inc",
+          "tickerSymbol": "TSLA"
+        },
+        {
+          "companyName": "Nvidia Corporation",
+          "tickerSymbol": "NVDA"
+        },
+        {
+          "companyName": "Intel Corporation",
+          "tickerSymbol": "INTC"
+        },
+        {
+          "companyName": "Netflix Inc",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "Adobe Inc",
+          "tickerSymbol": "ADBE"
+        },
+        {
+          "companyName": "Salesforce.com Inc",
+          "tickerSymbol": "CRM"
+        },
+        {
+          "companyName": "Oracle Corporation",
+          "tickerSymbol": "ORCL"
+        },
+        {
+          "companyName": "Cisco Systems Inc",
+          "tickerSymbol": "CSCO"
+        },
+        {
+          "companyName": "IBM",
+          "tickerSymbol": "IBM"
+        },
+        {
+          "companyName": "AMD",
+          "tickerSymbol": "AMD"
+        },
+        {
+          "companyName": "PayPal Holdings Inc",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Square Inc",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "Zoom Video Communications Inc",
+          "tickerSymbol": "ZM"
+        },
+        {
+          "companyName": "Snap Inc",
+          "tickerSymbol": "SNAP"
+        },
+        {
+          "companyName": "Twitter Inc",
+          "tickerSymbol": "TWTR"
+        },
+        {
+          "companyName": "Uber Technologies Inc",
+          "tickerSymbol": "UBER"
+        },
+        {
+          "companyName": "Lyft Inc",
+          "tickerSymbol": "LYFT"
+        },
+        {
+          "companyName": "Pinterest Inc",
+          "tickerSymbol": "PINS"
+        },
+        {
+          "companyName": "Slack Technologies Inc",
+          "tickerSymbol": "WORK"
+        },
+        {
+          "companyName": "Adobe Inc",
+          "tickerSymbol": "ADBE"
+        },
+        {
+          "companyName": "Intel Corporation",
+          "tickerSymbol": "INTC"
+        },
+        {
+          "companyName": "Netflix Inc",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "AMD",
+          "tickerSymbol": "AMD"
+        },
+        {
+          "companyName": "PayPal Holdings Inc",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Square Inc",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "Zoom Video Communications Inc",
+          "tickerSymbol": "ZM"
+        },
+        {
+          "companyName": "Snap Inc",
+          "tickerSymbol": "SNAP"
+        },
+        {
+          "companyName": "Twitter Inc",
+          "tickerSymbol": "TWTR"
+        },
+        {
+          "companyName": "Uber Technologies Inc",
+          "tickerSymbol": "UBER"
+        },
+        {
+          "companyName": "Lyft Inc",
+          "tickerSymbol": "LYFT"
+        },
+        {
+          "companyName": "Pinterest Inc",
+          "tickerSymbol": "PINS"
+        },
+        {
+          "companyName": "Slack Technologies Inc",
+          "tickerSymbol": "WORK"
+        },
+        {
+          "companyName": "Square Enix Holdings Co Ltd",
+          "tickerSymbol": "9684.T"
+        },
+        {
+          "companyName": "Sony Group Corporation",
+          "tickerSymbol": "SONY"
+        },
+        {
+          "companyName": "Activision Blizzard Inc",
+          "tickerSymbol": "ATVI"
+        },
+        {
+          "companyName": "Electronic Arts Inc",
+          "tickerSymbol": "EA"
+        },
+        {
+          "companyName": "Take-Two Interactive Software Inc",
+          "tickerSymbol": "TTWO"
+        },
+        {
+          "companyName": "Ubisoft Entertainment SA",
+          "tickerSymbol": "UBI.PA"
+        },
+        {
+          "companyName": "Konami Holdings Corporation",
+          "tickerSymbol": "9766.T"
+        },
+        {
+          "companyName": "Advanced Micro Devices Inc",
+          "tickerSymbol": "AMD"
+        },
+        {
+          "companyName": "NXP Semiconductors NV",
+          "tickerSymbol": "NXPI"
+        },
+        {
+          "companyName": "Broadcom Inc",
+          "tickerSymbol": "AVGO"
+        },
+        {
+          "companyName": "Micron Technology Inc",
+          "tickerSymbol": "MU"
+        },
+        {
+          "companyName": "Qualcomm Inc",
+          "tickerSymbol": "QCOM"
+        },
+        {
+          "companyName": "Texas Instruments Incorporated",
+          "tickerSymbol": "TXN"
+        },
+        {
+          "companyName": "Applied Materials Inc",
+          "tickerSymbol": "AMAT"
+        },
+        {
+          "companyName": "Advanced Energy Industries Inc",
+          "tickerSymbol": "AEIS"
+        },
+        {
+          "companyName": "Western Digital Corporation",
+          "tickerSymbol": "WDC"
+        },
+        {
+          "companyName": "Seagate Technology Holdings plc",
+          "tickerSymbol": "STX"
+        },
+        {
+          "companyName": "Cisco Systems Inc",
+          "tickerSymbol": "CSCO"
+        },
+        {
+          "companyName": "Juniper Networks Inc",
+          "tickerSymbol": "JNPR"
+        },
+        {
+          "companyName": "F5 Networks Inc",
+          "tickerSymbol": "FFIV"
+        },
+        {
+          "companyName": "Palo Alto Networks Inc",
+          "tickerSymbol": "PANW"
+        },
+        {
+          "companyName": "Fortinet Inc",
+          "tickerSymbol": "FTNT"
+        },
+        {
+          "companyName": "FireEye Inc",
+          "tickerSymbol": "FEYE"
+        },
+        {
+          "companyName": "Akamai Technologies Inc",
+          "tickerSymbol": "AKAM"
+        },
+        {
+          "companyName": "Twilio Inc",
+          "tickerSymbol": "TWLO"
+        },
+        {
+          "companyName": "Square Inc",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "DocuSign Inc",
+          "tickerSymbol": "DOCU"
+        },
+        {
+          "companyName": "Zscaler Inc",
+          "tickerSymbol": "ZS"
+        },
+        {
+          "companyName": "Okta Inc",
+          "tickerSymbol": "OKTA"
+        },
+        {
+          "companyName": "Splunk Inc",
+          "tickerSymbol": "SPLK"
+        },
+        {
+          "companyName": "Snowflake Inc",
+          "tickerSymbol": "SNOW"
+        },
+        {
+          "companyName": "MongoDB Inc",
+          "tickerSymbol": "MDB"
+        },
+        {
+          "companyName": "CrowdStrike Holdings Inc",
+          "tickerSymbol": "CRWD"
+        },
+        {
+          "companyName": "Elastic NV",
+          "tickerSymbol": "ESTC"
+        },
+        {
+          "companyName": "Atlassian Corporation Plc",
+          "tickerSymbol": "TEAM"
+        },
+        {
+          "companyName": "Unity Software Inc",
+          "tickerSymbol": "U"
+        },
+        {
+          "companyName": "Roblox Corporation",
+          "tickerSymbol": "RBLX"
+        },
+        {
+          "companyName": "DocuSign Inc",
+          "tickerSymbol": "DOCU"
+        },
+        {
+          "companyName": "Zscaler Inc",
+          "tickerSymbol": "ZS"
+        },
+        {
+          "companyName": "Okta Inc",
+          "tickerSymbol": "OKTA"
+        },
+        {
+          "companyName": "Splunk Inc",
+          "tickerSymbol": "SPLK"
+        },
+        {
+          "companyName": "Snowflake Inc",
+          "tickerSymbol": "SNOW"
+        },
+        {
+          "companyName": "MongoDB Inc",
+          "tickerSymbol": "MDB"
+        },
+        {
+          "companyName": "CrowdStrike Holdings Inc",
+          "tickerSymbol": "CRWD"
+        },
+        {
+          "companyName": "Elastic NV",
+          "tickerSymbol": "ESTC"
+        },
+        {
+          "companyName": "Atlassian Corporation Plc",
+          "tickerSymbol": "TEAM"
+        },
+        {
+          "companyName": "Unity Software Inc",
+          "tickerSymbol": "U"
+        },
+        {
+          "companyName": "Roblox Corporation",
+          "tickerSymbol": "RBLX"
+        }
+      ]
+    },
+  {
+      "industry": "Finance",
+      "stocks": [
+        {
+          "companyName": "JPMorgan Chase & Co.",
+          "tickerSymbol": "JPM"
+        },
+        {
+          "companyName": "Goldman Sachs Group Inc",
+          "tickerSymbol": "GS"
+        },
+        {
+          "companyName": "Bank of America Corporation",
+          "tickerSymbol": "BAC"
+        },
+        {
+          "companyName": "Citigroup Inc.",
+          "tickerSymbol": "C"
+        },
+        {
+          "companyName": "Wells Fargo & Company",
+          "tickerSymbol": "WFC"
+        },
+        {
+          "companyName": "Morgan Stanley",
+          "tickerSymbol": "MS"
+        },
+        {
+          "companyName": "HSBC Holdings plc",
+          "tickerSymbol": "HSBC"
+        },
+        {
+          "companyName": "UBS Group AG",
+          "tickerSymbol": "UBS"
+        },
+        {
+          "companyName": "Barclays PLC",
+          "tickerSymbol": "BCS"
+        },
+        {
+          "companyName": "Credit Suisse Group AG",
+          "tickerSymbol": "CS"
+        },
+        {
+          "companyName": "Royal Bank of Canada",
+          "tickerSymbol": "RY"
+        },
+        {
+          "companyName": "Toronto-Dominion Bank",
+          "tickerSymbol": "TD"
+        },
+        {
+          "companyName": "Berkshire Hathaway Inc.",
+          "tickerSymbol": "BRK.A"
+        },
+        {
+          "companyName": "BlackRock, Inc.",
+          "tickerSymbol": "BLK"
+        },
+        {
+          "companyName": "Blackstone Group LP",
+          "tickerSymbol": "BX"
+        },
+        {
+          "companyName": "Vanguard Group Inc.",
+          "tickerSymbol": "VOO"
+        },
+        {
+          "companyName": "State Street Corporation",
+          "tickerSymbol": "STT"
+        },
+        {
+          "companyName": "Charles Schwab Corporation",
+          "tickerSymbol": "SCHW"
+        },
+        {
+          "companyName": "Fidelity Investments",
+          "tickerSymbol": "FIS"
+        },
+        {
+          "companyName": "American Express Company",
+          "tickerSymbol": "AXP"
+        },
+        {
+          "companyName": "Mastercard Incorporated",
+          "tickerSymbol": "MA"
+        },
+        {
+          "companyName": "Visa Inc.",
+          "tickerSymbol": "V"
+        },
+        {
+          "companyName": "PayPal Holdings, Inc.",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Square, Inc.",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "Nasdaq, Inc.",
+          "tickerSymbol": "NDAQ"
+        },
+        {
+          "companyName": "Intercontinental Exchange, Inc.",
+          "tickerSymbol": "ICE"
+        },
+        {
+          "companyName": "CME Group Inc.",
+          "tickerSymbol": "CME"
+        },
+        {
+          "companyName": "AIG",
+          "tickerSymbol": "AIG"
+        },
+        {
+          "companyName": "MetLife, Inc.",
+          "tickerSymbol": "MET"
+        },
+        {
+          "companyName": "Prudential Financial, Inc.",
+          "tickerSymbol": "PRU"
+        },
+        {
+          "companyName": "Manulife Financial Corporation",
+          "tickerSymbol": "MFC"
+        },
+        {
+          "companyName": "Sun Life Financial Inc.",
+          "tickerSymbol": "SLF"
+        },
+        {
+          "companyName": "Allianz SE",
+          "tickerSymbol": "ALV"
+        },
+        {
+          "companyName": "AXA",
+          "tickerSymbol": "CS.PA"
+        },
+        {
+          "companyName": "ING Groep N.V.",
+          "tickerSymbol": "ING"
+        },
+        {
+          "companyName": "Standard Chartered PLC",
+          "tickerSymbol": "STAN.L"
+        },
+        {
+          "companyName": "Société Générale",
+          "tickerSymbol": "GLE.PA"
+        },
+        {
+          "companyName": "UBI Banca",
+          "tickerSymbol": "UBI.MI"
+        },
+        {
+          "companyName": "Deutsche Bank AG",
+          "tickerSymbol": "DBK.DE"
+        },
+        {
+          "companyName": "Commerzbank AG",
+          "tickerSymbol": "CBK.DE"
+        },
+        {
+          "companyName": "UniCredit S.p.A.",
+          "tickerSymbol": "UCG.MI"
+        },
+        {
+          "companyName": "Intesa Sanpaolo",
+          "tickerSymbol": "ISP.MI"
+        },
+        {
+          "companyName": "BBVA",
+          "tickerSymbol": "BBVA.MC"
+        },
+        {
+          "companyName": "Banco Santander, S.A.",
+          "tickerSymbol": "SAN.MC"
+        },
+        {
+          "companyName": "Bank of China Limited",
+          "tickerSymbol": "601988.SS"
+        },
+        {
+          "companyName": "Industrial and Commercial Bank of China Limited",
+          "tickerSymbol": "1398.HK"
+        },
+        {
+          "companyName": "China Construction Bank Corporation",
+          "tickerSymbol": "0939.HK"
+        },
+        {
+          "companyName": "Bank of Communications Co., Ltd.",
+          "tickerSymbol": "3328.HK"
+        },
+        {
+          "companyName": "Ping An Insurance (Group) Company of China, Ltd.",
+          "tickerSymbol": "601318.SS"
+        },
+        {
+          "companyName": "China Life Insurance Company Limited",
+          "tickerSymbol": "601628.SS"
+        },
+        {
+          "companyName": "Industrial Bank Co., Ltd.",
+          "tickerSymbol": "601166.SS"
+        },
+        {
+          "companyName": "China Merchants Bank Co., Ltd.",
+          "tickerSymbol": "600036.SS"
+        },
+        {
+          "companyName": "Bank of Communications Co., Ltd.",
+          "tickerSymbol": "601328.SS"
+        },
+        {
+          "companyName": "Mitsubishi UFJ Financial Group, Inc.",
+          "tickerSymbol": "MUFG"
+        },
+        {
+          "companyName": "Mizuho Financial Group, Inc.",
+          "tickerSymbol": "8411.T"
+        },
+        {
+          "companyName": "Sumitomo Mitsui Financial Group, Inc.",
+          "tickerSymbol": "8316.T"
+        },
+        {
+          "companyName": "Nomura Holdings, Inc.",
+          "tickerSymbol": "8604.T"
+        },
+        {
+          "companyName": "SBI Holdings, Inc.",
+          "tickerSymbol": "8473.T"
+        },
+        {
+          "companyName": "Resona Holdings, Inc.",
+          "tickerSymbol": "8308.T"
+        },
+        {
+          "companyName": "Daiwa Securities Group Inc.",
+          "tickerSymbol": "8601.T"
+        },
+        {
+          "companyName": "Fukoku Mutual Life Insurance Company",
+          "tickerSymbol": "7111.T"
+        },
+        {
+          "companyName": "KB Financial Group Inc",
+          "tickerSymbol": "105560.KS"
+        },
+        {
+          "companyName": "Shinhan Financial Group Co., Ltd.",
+          "tickerSymbol": "055550.KS"
+        },
+        {
+          "companyName": "Woori Financial Group Inc.",
+          "tickerSymbol": "053000.KS"
+        },
+        {
+          "companyName": "Hana Financial Group Inc.",
+          "tickerSymbol": "086790.KS"
+        },
+        {
+          "companyName": "Samsung Life Insurance Co., Ltd.",
+          "tickerSymbol": "032830.KS"
+        },
+        {
+          "companyName": "Samsung Securities Co., Ltd.",
+          "tickerSymbol": "016360.KS"
+        },
+        {
+          "companyName": "Industrial Bank of Korea",
+          "tickerSymbol": "024110.KS"
+        },
+        {
+          "companyName": "China Life Insurance Company Limited",
+          "tickerSymbol": "2628.HK"
+        },
+        {
+          "companyName": "Ping An Insurance (Group) Company of China, Ltd.",
+          "tickerSymbol": "2318.HK"
+        },
+        {
+          "companyName": "China Pacific Insurance (Group) Co., Ltd.",
+          "tickerSymbol": "2601.HK"
+        },
+        {
+          "companyName": "Bank of Communications Co., Ltd.",
+          "tickerSymbol": "3328.HK"
+        },
+        {
+          "companyName": "China CITIC Bank Corporation Limited",
+          "tickerSymbol": "998.HK"
+        }
+      ]
+    },
+  {
+      "industry": "Healthcare",
+      "stocks": [
+        {
+          "companyName": "Johnson & Johnson",
+          "tickerSymbol": "JNJ"
+        },
+        {
+          "companyName": "Pfizer Inc.",
+          "tickerSymbol": "PFE"
+        },
+        {
+          "companyName": "Merck & Co., Inc.",
+          "tickerSymbol": "MRK"
+        },
+        {
+          "companyName": "Novartis AG",
+          "tickerSymbol": "NVS"
+        },
+        {
+          "companyName": "Roche Holding AG",
+          "tickerSymbol": "ROG.SW"
+        },
+        {
+          "companyName": "Abbott Laboratories",
+          "tickerSymbol": "ABT"
+        },
+        {
+          "companyName": "Amgen Inc.",
+          "tickerSymbol": "AMGN"
+        },
+        {
+          "companyName": "Gilead Sciences, Inc.",
+          "tickerSymbol": "GILD"
+        },
+        {
+          "companyName": "Bristol-Myers Squibb Company",
+          "tickerSymbol": "BMY"
+        },
+        {
+          "companyName": "Eli Lilly and Company",
+          "tickerSymbol": "LLY"
+        },
+        {
+          "companyName": "AstraZeneca PLC",
+          "tickerSymbol": "AZN"
+        },
+        {
+          "companyName": "Sanofi",
+          "tickerSymbol": "SNY"
+        },
+        {
+          "companyName": "GlaxoSmithKline plc",
+          "tickerSymbol": "GSK"
+        },
+        {
+          "companyName": "Biogen Inc.",
+          "tickerSymbol": "BIIB"
+        },
+        {
+          "companyName": "Vertex Pharmaceuticals Incorporated",
+          "tickerSymbol": "VRTX"
+        },
+        {
+          "companyName": "Regeneron Pharmaceuticals, Inc.",
+          "tickerSymbol": "REGN"
+        },
+        {
+          "companyName": "Alexion Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALXN"
+        },
+        {
+          "companyName": "Thermo Fisher Scientific Inc.",
+          "tickerSymbol": "TMO"
+        },
+        {
+          "companyName": "AbbVie Inc.",
+          "tickerSymbol": "ABBV"
+        },
+        {
+          "companyName": "Biogen Inc.",
+          "tickerSymbol": "BIIB"
+        },
+        {
+          "companyName": "Celgene Corporation",
+          "tickerSymbol": "CELG"
+        },
+        {
+          "companyName": "Cigna Corporation",
+          "tickerSymbol": "CI"
+        },
+        {
+          "companyName": "UnitedHealth Group Incorporated",
+          "tickerSymbol": "UNH"
+        },
+        {
+          "companyName": "Anthem, Inc.",
+          "tickerSymbol": "ANTM"
+        },
+        {
+          "companyName": "CVS Health Corporation",
+          "tickerSymbol": "CVS"
+        },
+        {
+          "companyName": "McKesson Corporation",
+          "tickerSymbol": "MCK"
+        },
+        {
+          "companyName": "AmerisourceBergen Corporation",
+          "tickerSymbol": "ABC"
+        },
+        {
+          "companyName": "Cardinal Health, Inc.",
+          "tickerSymbol": "CAH"
+        },
+        {
+          "companyName": "Walgreens Boots Alliance, Inc.",
+          "tickerSymbol": "WBA"
+        },
+        {
+          "companyName": "Johnson Controls International plc",
+          "tickerSymbol": "JCI"
+        },
+        {
+          "companyName": "Medtronic plc",
+          "tickerSymbol": "MDT"
+        },
+        {
+          "companyName": "Stryker Corporation",
+          "tickerSymbol": "SYK"
+        },
+        {
+          "companyName": "Boston Scientific Corporation",
+          "tickerSymbol": "BSX"
+        },
+        {
+          "companyName": "Becton, Dickinson and Company",
+          "tickerSymbol": "BDX"
+        },
+        {
+          "companyName": "Abbott Laboratories",
+          "tickerSymbol": "ABT"
+        },
+        {
+          "companyName": "Intuitive Surgical, Inc.",
+          "tickerSymbol": "ISRG"
+        },
+        {
+          "companyName": "Zoetis Inc.",
+          "tickerSymbol": "ZTS"
+        },
+        {
+          "companyName": "Vertex Pharmaceuticals Incorporated",
+          "tickerSymbol": "VRTX"
+        },
+        {
+          "companyName": "Regeneron Pharmaceuticals, Inc.",
+          "tickerSymbol": "REGN"
+        },
+        {
+          "companyName": "Baxter International Inc.",
+          "tickerSymbol": "BAX"
+        },
+        {
+          "companyName": "Perrigo Company plc",
+          "tickerSymbol": "PRGO"
+        },
+        {
+          "companyName": "Quest Diagnostics Incorporated",
+          "tickerSymbol": "DGX"
+        },
+        {
+          "companyName": "LabCorp",
+          "tickerSymbol": "LH"
+        },
+        {
+          "companyName": "Illumina, Inc.",
+          "tickerSymbol": "ILMN"
+        },
+        {
+          "companyName": "DexCom, Inc.",
+          "tickerSymbol": "DXCM"
+        },
+        {
+          "companyName": "Varian Medical Systems, Inc.",
+          "tickerSymbol": "VAR"
+        },
+        {
+          "companyName": "CRISPR Therapeutics AG",
+          "tickerSymbol": "CRSP"
+        },
+        {
+          "companyName": "Genmab A/S",
+          "tickerSymbol": "GMAB"
+        },
+        {
+          "companyName": "Danaher Corporation",
+          "tickerSymbol": "DHR"
+        },
+        {
+          "companyName": "HCA Healthcare, Inc.",
+          "tickerSymbol": "HCA"
+        },
+        {
+          "companyName": "Universal Health Services, Inc.",
+          "tickerSymbol": "UHS"
+        },
+        {
+          "companyName": "Cerner Corporation",
+          "tickerSymbol": "CERN"
+        },
+        {
+          "companyName": "IQVIA Holdings Inc.",
+          "tickerSymbol": "IQV"
+        },
+        {
+          "companyName": "Sage Therapeutics, Inc.",
+          "tickerSymbol": "SAGE"
+        },
+        {
+          "companyName": "Amphastar Pharmaceuticals, Inc.",
+          "tickerSymbol": "AMPH"
+        },
+        {
+          "companyName": "Exact Sciences Corporation",
+          "tickerSymbol": "EXAS"
+        },
+        {
+          "companyName": "Incyte Corporation",
+          "tickerSymbol": "INCY"
+        },
+        {
+          "companyName": "Molina Healthcare, Inc.",
+          "tickerSymbol": "MOH"
+        },
+        {
+          "companyName": "Cooper Companies, Inc.",
+          "tickerSymbol": "COO"
+        },
+        {
+          "companyName": "BIOGENOMICS LTD.",
+          "tickerSymbol": "BNOM.L"
+        },
+        {
+          "companyName": "Fresenius Medical Care AG & Co. KGaA",
+          "tickerSymbol": "FME.DE"
+        },
+        {
+          "companyName": "Fresenius SE & Co. KGaA",
+          "tickerSymbol": "FRE.DE"
+        }
+      ]
+    },
+  {
+      "industry": "Consumer Discretionary",
+      "stocks": [
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Tesla, Inc.",
+          "tickerSymbol": "TSLA"
+        },
+        {
+          "companyName": "Walt Disney Company",
+          "tickerSymbol": "DIS"
+        },
+        {
+          "companyName": "Nike, Inc.",
+          "tickerSymbol": "NKE"
+        },
+        {
+          "companyName": "McDonald's Corporation",
+          "tickerSymbol": "MCD"
+        },
+        {
+          "companyName": "Home Depot, Inc.",
+          "tickerSymbol": "HD"
+        },
+        {
+          "companyName": "Starbucks Corporation",
+          "tickerSymbol": "SBUX"
+        },
+        {
+          "companyName": "LVMH Moët Hennessy Louis Vuitton SE",
+          "tickerSymbol": "LVMUY"
+        },
+        {
+          "companyName": "The Coca-Cola Company",
+          "tickerSymbol": "KO"
+        },
+        {
+          "companyName": "Toyota Motor Corporation",
+          "tickerSymbol": "TM"
+        },
+        {
+          "companyName": "Netflix, Inc.",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "Ford Motor Company",
+          "tickerSymbol": "F"
+        },
+        {
+          "companyName": "General Motors Company",
+          "tickerSymbol": "GM"
+        },
+        {
+          "companyName": "Volkswagen AG",
+          "tickerSymbol": "VOW3.DE"
+        },
+        {
+          "companyName": "Target Corporation",
+          "tickerSymbol": "TGT"
+        },
+        {
+          "companyName": "Best Buy Co., Inc.",
+          "tickerSymbol": "BBY"
+        },
+        {
+          "companyName": "Lowe's Companies, Inc.",
+          "tickerSymbol": "LOW"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Pandora A/S",
+          "tickerSymbol": "PNDORA.CO"
+        },
+        {
+          "companyName": "Ralph Lauren Corporation",
+          "tickerSymbol": "RL"
+        },
+        {
+          "companyName": "Gap Inc.",
+          "tickerSymbol": "GPS"
+        },
+        {
+          "companyName": "H&M Hennes & Mauritz AB",
+          "tickerSymbol": "HM-B.ST"
+        },
+        {
+          "companyName": "Adidas AG",
+          "tickerSymbol": "ADS.DE"
+        },
+        {
+          "companyName": "Under Armour, Inc.",
+          "tickerSymbol": "UA"
+        },
+        {
+          "companyName": "Puma SE",
+          "tickerSymbol": "PUM.DE"
+        },
+        {
+          "companyName": "Ferrari N.V.",
+          "tickerSymbol": "RACE"
+        },
+        {
+          "companyName": "Harley-Davidson, Inc.",
+          "tickerSymbol": "HOG"
+        },
+        {
+          "companyName": "Mattel, Inc.",
+          "tickerSymbol": "MAT"
+        },
+        {
+          "companyName": "Sony Group Corporation",
+          "tickerSymbol": "SONY"
+        },
+        {
+          "companyName": "Nintendo Co., Ltd.",
+          "tickerSymbol": "NTDOY"
+        },
+        {
+          "companyName": "Tencent Holdings Limited",
+          "tickerSymbol": "TCEHY"
+        },
+        {
+          "companyName": "Alibaba Group Holding Limited",
+          "tickerSymbol": "BABA"
+        },
+        {
+          "companyName": "Tiffany & Co.",
+          "tickerSymbol": "TIF"
+        },
+        {
+          "companyName": "Estée Lauder Companies Inc.",
+          "tickerSymbol": "EL"
+        },
+        {
+          "companyName": "Booking Holdings Inc.",
+          "tickerSymbol": "BKNG"
+        },
+        {
+          "companyName": "eBay Inc.",
+          "tickerSymbol": "EBAY"
+        },
+        {
+          "companyName": "Expedia Group, Inc.",
+          "tickerSymbol": "EXPE"
+        },
+        {
+          "companyName": "Airbnb, Inc.",
+          "tickerSymbol": "ABNB"
+        },
+        {
+          "companyName": "Royal Caribbean Group",
+          "tickerSymbol": "RCL"
+        },
+        {
+          "companyName": "Marriott International, Inc.",
+          "tickerSymbol": "MAR"
+        },
+        {
+          "companyName": "Carnival Corporation & plc",
+          "tickerSymbol": "CCL"
+        },
+        {
+          "companyName": "Hilton Worldwide Holdings Inc.",
+          "tickerSymbol": "HLT"
+        },
+        {
+          "companyName": "Live Nation Entertainment, Inc.",
+          "tickerSymbol": "LYV"
+        },
+        {
+          "companyName": "Six Flags Entertainment Corporation",
+          "tickerSymbol": "SIX"
+        },
+        {
+          "companyName": "Universal Parks & Resorts",
+          "tickerSymbol": "CMCSA"
+        },
+        {
+          "companyName": "Sony Pictures Entertainment Inc.",
+          "tickerSymbol": "SNE"
+        },
+        {
+          "companyName": "Netflix, Inc.",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "Warner Bros. Entertainment Inc.",
+          "tickerSymbol": "T"
+        },
+        {
+          "companyName": "Sony Music Entertainment",
+          "tickerSymbol": "SNE"
+        },
+        {
+          "companyName": "Disney Parks, Experiences and Products",
+          "tickerSymbol": "DIS"
+        },
+        {
+          "companyName": "Comcast Corporation",
+          "tickerSymbol": "CMCSA"
+        },
+        {
+          "companyName": "The Home Depot, Inc.",
+          "tickerSymbol": "HD"
+        },
+        {
+          "companyName": "Lowe's Companies, Inc.",
+          "tickerSymbol": "LOW"
+        },
+        {
+          "companyName": "Target Corporation",
+          "tickerSymbol": "TGT"
+        },
+        {
+          "companyName": "Walmart Inc.",
+          "tickerSymbol": "WMT"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "The Kroger Co.",
+          "tickerSymbol": "KR"
+        },
+        {
+          "companyName": "Macy's, Inc.",
+          "tickerSymbol": "M"
+        },
+        {
+          "companyName": "The TJX Companies, Inc.",
+          "tickerSymbol": "TJX"
+        },
+        {
+          "companyName": "Ross Stores, Inc.",
+          "tickerSymbol": "ROST"
+        },
+        {
+          "companyName": "Dollar General Corporation",
+          "tickerSymbol": "DG"
+        },
+        {
+          "companyName": "Starbucks Corporation",
+          "tickerSymbol": "SBUX"
+        },
+        {
+          "companyName": "McDonald's Corporation",
+          "tickerSymbol": "MCD"
+        },
+        {
+          "companyName": "The Coca-Cola Company",
+          "tickerSymbol": "KO"
+        },
+        {
+          "companyName": "PepsiCo, Inc.",
+          "tickerSymbol": "PEP"
+        },
+        {
+          "companyName": "The Hershey Company",
+          "tickerSymbol": "HSY"
+        },
+        {
+          "companyName": "Colgate-Palmolive Company",
+          "tickerSymbol": "CL"
+        },
+        {
+          "companyName": "Procter & Gamble Company",
+          "tickerSymbol": "PG"
+        },
+        {
+          "companyName": "Unilever PLC",
+          "tickerSymbol": "UL"
+        },
+        {
+          "companyName": "Estée Lauder Companies Inc.",
+          "tickerSymbol": "EL"
+        }
+      ]
+    },
+  {
+      "industry": "Energy",
+      "stocks": [
+        {
+          "companyName": "Exxon Mobil Corporation",
+          "tickerSymbol": "XOM"
+        },
+        {
+          "companyName": "Chevron Corporation",
+          "tickerSymbol": "CVX"
+        },
+        {
+          "companyName": "Royal Dutch Shell plc",
+          "tickerSymbol": "RDS.A"
+        },
+        {
+          "companyName": "BP p.l.c.",
+          "tickerSymbol": "BP"
+        },
+        {
+          "companyName": "TotalEnergies SE",
+          "tickerSymbol": "TOT"
+        },
+        {
+          "companyName": "ConocoPhillips",
+          "tickerSymbol": "COP"
+        },
+        {
+          "companyName": "Schlumberger Limited",
+          "tickerSymbol": "SLB"
+        },
+        {
+          "companyName": "Halliburton Company",
+          "tickerSymbol": "HAL"
+        },
+        {
+          "companyName": "Baker Hughes Company",
+          "tickerSymbol": "BKR"
+        },
+        {
+          "companyName": "National Oilwell Varco, Inc.",
+          "tickerSymbol": "NOV"
+        },
+        {
+          "companyName": "Phillips 66",
+          "tickerSymbol": "PSX"
+        },
+        {
+          "companyName": "Valero Energy Corporation",
+          "tickerSymbol": "VLO"
+        },
+        {
+          "companyName": "Occidental Petroleum Corporation",
+          "tickerSymbol": "OXY"
+        },
+        {
+          "companyName": "Eni S.p.A.",
+          "tickerSymbol": "E"
+        },
+        {
+          "companyName": "Equinor ASA",
+          "tickerSymbol": "EQNR"
+        },
+        {
+          "companyName": "PetroChina Company Limited",
+          "tickerSymbol": "PTR"
+        },
+        {
+          "companyName": "CNOOC Limited",
+          "tickerSymbol": "CEO"
+        },
+        {
+          "companyName": "Suncor Energy Inc.",
+          "tickerSymbol": "SU"
+        },
+        {
+          "companyName": "Canadian Natural Resources Limited",
+          "tickerSymbol": "CNQ"
+        },
+        {
+          "companyName": "Pioneer Natural Resources Company",
+          "tickerSymbol": "PXD"
+        },
+        {
+          "companyName": "EOG Resources, Inc.",
+          "tickerSymbol": "EOG"
+        },
+        {
+          "companyName": "Cheniere Energy, Inc.",
+          "tickerSymbol": "LNG"
+        },
+        {
+          "companyName": "Enterprise Products Partners L.P.",
+          "tickerSymbol": "EPD"
+        },
+        {
+          "companyName": "Kinder Morgan, Inc.",
+          "tickerSymbol": "KMI"
+        },
+        {
+          "companyName": "Williams Companies, Inc.",
+          "tickerSymbol": "WMB"
+        },
+        {
+          "companyName": "Energy Transfer LP",
+          "tickerSymbol": "ET"
+        },
+        {
+          "companyName": "NextEra Energy, Inc.",
+          "tickerSymbol": "NEE"
+        },
+        {
+          "companyName": "Dominion Energy, Inc.",
+          "tickerSymbol": "D"
+        },
+        {
+          "companyName": "Duke Energy Corporation",
+          "tickerSymbol": "DUK"
+        },
+        {
+          "companyName": "Southern Company",
+          "tickerSymbol": "SO"
+        },
+        {
+          "companyName": "First Solar, Inc.",
+          "tickerSymbol": "FSLR"
+        },
+        {
+          "companyName": "Canadian Solar Inc.",
+          "tickerSymbol": "CSIQ"
+        },
+        {
+          "companyName": "SunPower Corporation",
+          "tickerSymbol": "SPWR"
+        },
+        {
+          "companyName": "Vestas Wind Systems A/S",
+          "tickerSymbol": "VWS.CO"
+        },
+        {
+          "companyName": "Ørsted A/S",
+          "tickerSymbol": "ORSTED.CO"
+        },
+        {
+          "companyName": "Cenovus Energy Inc.",
+          "tickerSymbol": "CVE"
+        },
+        {
+          "companyName": "Husky Energy Inc.",
+          "tickerSymbol": "HSE.TO"
+        },
+        {
+          "companyName": "TC Energy Corporation",
+          "tickerSymbol": "TRP"
+        },
+        {
+          "companyName": "Enbridge Inc.",
+          "tickerSymbol": "ENB"
+        },
+        {
+          "companyName": "TransCanada Corporation",
+          "tickerSymbol": "TRP"
+        },
+        {
+          "companyName": "National Grid plc",
+          "tickerSymbol": "NGG"
+        },
+        {
+          "companyName": "EDF Group",
+          "tickerSymbol": "EDF.PA"
+        },
+        {
+          "companyName": "Iberdrola, S.A.",
+          "tickerSymbol": "IBE.MC"
+        },
+        {
+          "companyName": "Fortum Corporation",
+          "tickerSymbol": "FORTUM.HE"
+        },
+        {
+          "companyName": "E.ON SE",
+          "tickerSymbol": "EOAN.DE"
+        },
+        {
+          "companyName": "RWE AG",
+          "tickerSymbol": "RWE.DE"
+        },
+        {
+          "companyName": "Vattenfall AB",
+          "tickerSymbol": "VTTNF"
+        },
+        {
+          "companyName": "Neste Corporation",
+          "tickerSymbol": "NESTE.HE"
+        },
+        {
+          "companyName": "Enel S.p.A.",
+          "tickerSymbol": "ENEL.MI"
+        },
+        {
+          "companyName": "Èlectricité de France S.A.",
+          "tickerSymbol": "EDF.PA"
+        },
+        {
+          "companyName": "Iberdrola, S.A.",
+          "tickerSymbol": "IBE.MC"
+        },
+        {
+          "companyName": "EDP - Energias de Portugal, S.A.",
+          "tickerSymbol": "EDP.LS"
+        },
+        {
+          "companyName": "Energias de Portugal, S.A.",
+          "tickerSymbol": "EDP.LS"
+        },
+        {
+          "companyName": "Galp Energia, SGPS, S.A.",
+          "tickerSymbol": "GALP.LS"
+        },
+        {
+          "companyName": "EDP Renováveis, S.A.",
+          "tickerSymbol": "EDPR.LS"
+        },
+        {
+          "companyName": "Acciona, S.A.",
+          "tickerSymbol": "ANA.MC"
+        },
+        {
+          "companyName": "Endesa, S.A.",
+          "tickerSymbol": "ELE.MC"
+        },
+        {
+          "companyName": "Èlectricité de France S.A.",
+          "tickerSymbol": "EDF.PA"
+        },
+        {
+          "companyName": "RWE AG",
+          "tickerSymbol": "RWE.DE"
+        },
+        {
+          "companyName": "Ørsted A/S",
+          "tickerSymbol": "ORSTED.CO"
+        },
+        {
+          "companyName": "Vestas Wind Systems A/S",
+          "tickerSymbol": "VWS.CO"
+        }
+      ]
+    },
+  {
+      "industry": "Consumer Staples",
+      "stocks": [
+        {
+          "companyName": "Procter & Gamble Company",
+          "tickerSymbol": "PG"
+        },
+        {
+          "companyName": "Coca-Cola Company",
+          "tickerSymbol": "KO"
+        },
+        {
+          "companyName": "PepsiCo, Inc.",
+          "tickerSymbol": "PEP"
+        },
+        {
+          "companyName": "Nestlé S.A.",
+          "tickerSymbol": "NSRGF"
+        },
+        {
+          "companyName": "Unilever PLC",
+          "tickerSymbol": "UL"
+        },
+        {
+          "companyName": "Anheuser-Busch InBev SA/NV",
+          "tickerSymbol": "BUD"
+        },
+        {
+          "companyName": "Philip Morris International Inc.",
+          "tickerSymbol": "PM"
+        },
+        {
+          "companyName": "Colgate-Palmolive Company",
+          "tickerSymbol": "CL"
+        },
+        {
+          "companyName": "Kimberly-Clark Corporation",
+          "tickerSymbol": "KMB"
+        },
+        {
+          "companyName": "Mondelez International, Inc.",
+          "tickerSymbol": "MDLZ"
+        },
+        {
+          "companyName": "Altria Group, Inc.",
+          "tickerSymbol": "MO"
+        },
+        {
+          "companyName": "Danone S.A.",
+          "tickerSymbol": "DANOY"
+        },
+        {
+          "companyName": "Kraft Heinz Company",
+          "tickerSymbol": "KHC"
+        },
+        {
+          "companyName": "Diageo plc",
+          "tickerSymbol": "DEO"
+        },
+        {
+          "companyName": "General Mills, Inc.",
+          "tickerSymbol": "GIS"
+        },
+        {
+          "companyName": "The Hershey Company",
+          "tickerSymbol": "HSY"
+        },
+        {
+          "companyName": "Estée Lauder Companies Inc.",
+          "tickerSymbol": "EL"
+        },
+        {
+          "companyName": "Church & Dwight Co., Inc.",
+          "tickerSymbol": "CHD"
+        },
+        {
+          "companyName": "L'Oréal S.A.",
+          "tickerSymbol": "OR.PA"
+        },
+        {
+          "companyName": "Reckitt Benckiser Group plc",
+          "tickerSymbol": "RB.L"
+        },
+        {
+          "companyName": "Beiersdorf Aktiengesellschaft",
+          "tickerSymbol": "BEI.DE"
+        },
+        {
+          "companyName": "SABMiller Limited",
+          "tickerSymbol": "SAB.L"
+        },
+        {
+          "companyName": "Molson Coors Beverage Company",
+          "tickerSymbol": "TAP"
+        },
+        {
+          "companyName": "Campbell Soup Company",
+          "tickerSymbol": "CPB"
+        },
+        {
+          "companyName": "Constellation Brands, Inc.",
+          "tickerSymbol": "STZ"
+        },
+        {
+          "companyName": "Conagra Brands, Inc.",
+          "tickerSymbol": "CAG"
+        },
+        {
+          "companyName": "Kellogg Company",
+          "tickerSymbol": "K"
+        },
+        {
+          "companyName": "Heineken N.V.",
+          "tickerSymbol": "HEIA.AS"
+        },
+        {
+          "companyName": "Pernod Ricard SA",
+          "tickerSymbol": "RI.PA"
+        },
+        {
+          "companyName": "The Clorox Company",
+          "tickerSymbol": "CLX"
+        },
+        {
+          "companyName": "Kimberly-Clark de México, S.A.B. de C.V.",
+          "tickerSymbol": "KIMBERA.MX"
+        },
+        {
+          "companyName": "Svenska Cellulosa AB",
+          "tickerSymbol": "SCA-B.ST"
+        },
+        {
+          "companyName": "Mondi plc",
+          "tickerSymbol": "MNDI.L"
+        },
+        {
+          "companyName": "Ahold Delhaize",
+          "tickerSymbol": "AD"
+        },
+        {
+          "companyName": "Walmart Inc.",
+          "tickerSymbol": "WMT"
+        },
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "The Kroger Co.",
+          "tickerSymbol": "KR"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Walgreens Boots Alliance, Inc.",
+          "tickerSymbol": "WBA"
+        },
+        {
+          "companyName": "CVS Health Corporation",
+          "tickerSymbol": "CVS"
+        },
+        {
+          "companyName": "Alimentation Couche-Tard Inc.",
+          "tickerSymbol": "ATD-B.TO"
+        },
+        {
+          "companyName": "Carrefour S.A.",
+          "tickerSymbol": "CA.PA"
+        },
+        {
+          "companyName": "Metro AG",
+          "tickerSymbol": "B4B.DE"
+        },
+        {
+          "companyName": "Auchan Holding S.A.",
+          "tickerSymbol": "XCH.SW"
+        },
+        {
+          "companyName": "The Coca-Cola Company",
+          "tickerSymbol": "KO"
+        },
+        {
+          "companyName": "PepsiCo, Inc.",
+          "tickerSymbol": "PEP"
+        },
+        {
+          "companyName": "Nestlé S.A.",
+          "tickerSymbol": "NSRGF"
+        },
+        {
+          "companyName": "Unilever PLC",
+          "tickerSymbol": "UL"
+        },
+        {
+          "companyName": "Danone S.A.",
+          "tickerSymbol": "DANOY"
+        },
+        {
+          "companyName": "Kraft Heinz Company",
+          "tickerSymbol": "KHC"
+        },
+        {
+          "companyName": "Diageo plc",
+          "tickerSymbol": "DEO"
+        },
+        {
+          "companyName": "General Mills, Inc.",
+          "tickerSymbol": "GIS"
+        },
+        {
+          "companyName": "The Hershey Company",
+          "tickerSymbol": "HSY"
+        },
+        {
+          "companyName": "Estée Lauder Companies Inc.",
+          "tickerSymbol": "EL"
+        },
+        {
+          "companyName": "Church & Dwight Co., Inc.",
+          "tickerSymbol": "CHD"
+        },
+        {
+          "companyName": "L'Oréal S.A.",
+          "tickerSymbol": "OR.PA"
+        },
+        {
+          "companyName": "Reckitt Benckiser Group plc",
+          "tickerSymbol": "RB.L"
+        },
+        {
+          "companyName": "Beiersdorf Aktiengesellschaft",
+          "tickerSymbol": "BEI.DE"
+        },
+        {
+          "companyName": "SABMiller Limited",
+          "tickerSymbol": "SAB.L"
+        },
+        {
+          "companyName": "Molson Coors Beverage Company",
+          "tickerSymbol": "TAP"
+        },
+        {
+          "companyName": "Campbell Soup Company",
+          "tickerSymbol": "CPB"
+        },
+        {
+          "companyName": "Constellation Brands, Inc.",
+          "tickerSymbol": "STZ"
+        },
+        {
+          "companyName": "Conagra Brands, Inc.",
+          "tickerSymbol": "CAG"
+        },
+        {
+          "companyName": "Kellogg Company",
+          "tickerSymbol": "K"
+        },
+        {
+          "companyName": "Heineken N.V.",
+          "tickerSymbol": "HEIA.AS"
+        },
+        {
+          "companyName": "Pernod Ricard SA",
+          "tickerSymbol": "RI.PA"
+        },
+        {
+          "companyName": "The Clorox Company",
+          "tickerSymbol": "CLX"
+        },
+        {
+          "companyName": "Kimberly-Clark de México, S.A.B. de C.V.",
+          "tickerSymbol": "KIMBERA.MX"
+        },
+        {
+          "companyName": "Svenska Cellulosa AB",
+          "tickerSymbol": "SCA-B.ST"
+        },
+        {
+          "companyName": "Mondi plc",
+          "tickerSymbol": "MNDI.L"
+        },
+        {
+          "companyName": "Ahold Delhaize",
+          "tickerSymbol": "AD"
+        },
+        {
+          "companyName": "Walmart Inc.",
+          "tickerSymbol": "WMT"
+        },
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "The Kroger Co.",
+          "tickerSymbol": "KR"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Walgreens Boots Alliance, Inc.",
+          "tickerSymbol": "WBA"
+        },
+        {
+          "companyName": "CVS Health Corporation",
+          "tickerSymbol": "CVS"
+        },
+        {
+          "companyName": "Alimentation Couche-Tard Inc.",
+          "tickerSymbol": "ATD-B.TO"
+        },
+        {
+          "companyName": "Carrefour S.A.",
+          "tickerSymbol": "CA.PA"
+        },
+        {
+          "companyName": "Metro AG",
+          "tickerSymbol": "B4B.DE"
+        },
+        {
+          "companyName": "Auchan Holding S.A.",
+          "tickerSymbol": "XCH.SW"
+        },
+        {
+          "companyName": "The Coca-Cola Company",
+          "tickerSymbol": "KO"
+        },
+        {
+          "companyName": "PepsiCo, Inc.",
+          "tickerSymbol": "PEP"
+        },
+        {
+          "companyName": "Nestlé S.A.",
+          "tickerSymbol": "NSRGF"
+        },
+        {
+          "companyName": "Unilever PLC",
+          "tickerSymbol": "UL"
+        },
+        {
+          "companyName": "Danone S.A.",
+          "tickerSymbol": "DANOY"
+        },
+        {
+          "companyName": "Kraft Heinz Company",
+          "tickerSymbol": "KHC"
+        },
+        {
+          "companyName": "Diageo plc",
+          "tickerSymbol": "DEO"
+        },
+        {
+          "companyName": "General Mills, Inc.",
+          "tickerSymbol": "GIS"
+        },
+        {
+          "companyName": "The Hershey Company",
+          "tickerSymbol": "HSY"
+        },
+        {
+          "companyName": "Estée Lauder Companies Inc.",
+          "tickerSymbol": "EL"
+        },
+        {
+          "companyName": "Church & Dwight Co., Inc.",
+          "tickerSymbol": "CHD"
+        },
+        {
+          "companyName": "L'Oréal S.A.",
+          "tickerSymbol": "OR.PA"
+        },
+        {
+          "companyName": "Reckitt Benckiser Group plc",
+          "tickerSymbol": "RB.L"
+        },
+        {
+          "companyName": "Beiersdorf Aktiengesellschaft",
+          "tickerSymbol": "BEI.DE"
+        },
+        {
+          "companyName": "SABMiller Limited",
+          "tickerSymbol": "SAB.L"
+        },
+        {
+          "companyName": "Molson Coors Beverage Company",
+          "tickerSymbol": "TAP"
+        },
+        {
+          "companyName": "Campbell Soup Company",
+          "tickerSymbol": "CPB"
+        },
+        {
+          "companyName": "Constellation Brands, Inc.",
+          "tickerSymbol": "STZ"
+        },
+        {
+          "companyName": "Conagra Brands, Inc.",
+          "tickerSymbol": "CAG"
+        },
+        {
+          "companyName": "Kellogg Company",
+          "tickerSymbol": "K"
+        },
+        {
+          "companyName": "Heineken N.V.",
+          "tickerSymbol": "HEIA.AS"
+        },
+        {
+          "companyName": "Pernod Ricard SA",
+          "tickerSymbol": "RI.PA"
+        },
+        {
+          "companyName": "The Clorox Company",
+          "tickerSymbol": "CLX"
+        },
+        {
+          "companyName": "Kimberly-Clark de México, S.A.B. de C.V.",
+          "tickerSymbol": "KIMBERA.MX"
+        },
+        {
+          "companyName": "Svenska Cellulosa AB",
+          "tickerSymbol": "SCA-B.ST"
+        },
+        {
+          "companyName": "Mondi plc",
+          "tickerSymbol": "MNDI.L"
+        },
+        {
+          "companyName": "Ahold Delhaize",
+          "tickerSymbol": "AD"
+        },
+        {
+          "companyName": "Walmart Inc.",
+          "tickerSymbol": "WMT"
+        },
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "The Kroger Co.",
+          "tickerSymbol": "KR"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Walgreens Boots Alliance, Inc.",
+          "tickerSymbol": "WBA"
+        },
+        {
+          "companyName": "CVS Health Corporation",
+          "tickerSymbol": "CVS"
+        },
+        {
+          "companyName": "Alimentation Couche-Tard Inc.",
+          "tickerSymbol": "ATD-B.TO"
+        },
+        {
+          "companyName": "Carrefour S.A.",
+          "tickerSymbol": "CA.PA"
+        },
+        {
+          "companyName": "Metro AG",
+          "tickerSymbol": "B4B.DE"
+        },
+        {
+          "companyName": "Auchan Holding S.A.",
+          "tickerSymbol": "XCH.SW"
+        }
+      ]
+    },
+  {
+      "industry": "Industrial",
+      "stocks": [
+        {
+          "companyName": "General Electric Company",
+          "tickerSymbol": "GE"
+        },
+        {
+          "companyName": "3M Company",
+          "tickerSymbol": "MMM"
+        },
+        {
+          "companyName": "Honeywell International Inc.",
+          "tickerSymbol": "HON"
+        },
+        {
+          "companyName": "United Technologies Corporation",
+          "tickerSymbol": "UTX"
+        },
+        {
+          "companyName": "Caterpillar Inc.",
+          "tickerSymbol": "CAT"
+        },
+        {
+          "companyName": "Boeing Company",
+          "tickerSymbol": "BA"
+        },
+        {
+          "companyName": "Lockheed Martin Corporation",
+          "tickerSymbol": "LMT"
+        },
+        {
+          "companyName": "Raytheon Technologies Corporation",
+          "tickerSymbol": "RTX"
+        },
+        {
+          "companyName": "Delta Air Lines, Inc.",
+          "tickerSymbol": "DAL"
+        },
+        {
+          "companyName": "Union Pacific Corporation",
+          "tickerSymbol": "UNP"
+        },
+        {
+          "companyName": "CSX Corporation",
+          "tickerSymbol": "CSX"
+        },
+        {
+          "companyName": "Norfolk Southern Corporation",
+          "tickerSymbol": "NSC"
+        },
+        {
+          "companyName": "FedEx Corporation",
+          "tickerSymbol": "FDX"
+        },
+        {
+          "companyName": "United Parcel Service, Inc.",
+          "tickerSymbol": "UPS"
+        },
+        {
+          "companyName": "General Dynamics Corporation",
+          "tickerSymbol": "GD"
+        },
+        {
+          "companyName": "Northrop Grumman Corporation",
+          "tickerSymbol": "NOC"
+        },
+        {
+          "companyName": "Raytheon Company",
+          "tickerSymbol": "RTN"
+        },
+        {
+          "companyName": "Emerson Electric Co.",
+          "tickerSymbol": "EMR"
+        },
+        {
+          "companyName": "Eaton Corporation plc",
+          "tickerSymbol": "ETN"
+        },
+        {
+          "companyName": "ABB Ltd",
+          "tickerSymbol": "ABB"
+        },
+        {
+          "companyName": "Siemens AG",
+          "tickerSymbol": "SIE.DE"
+        },
+        {
+          "companyName": "Schneider Electric SE",
+          "tickerSymbol": "SU.PA"
+        },
+        {
+          "companyName": "Mitsubishi Electric Corporation",
+          "tickerSymbol": "6503.T"
+        },
+        {
+          "companyName": "Hitachi, Ltd.",
+          "tickerSymbol": "6501.T"
+        },
+        {
+          "companyName": "Komatsu Ltd.",
+          "tickerSymbol": "6301.T"
+        },
+        {
+          "companyName": "Caterpillar Inc.",
+          "tickerSymbol": "CAT"
+        },
+        {
+          "companyName": "Deere & Company",
+          "tickerSymbol": "DE"
+        },
+        {
+          "companyName": "Lockheed Martin Corporation",
+          "tickerSymbol": "LMT"
+        },
+        {
+          "companyName": "Raytheon Technologies Corporation",
+          "tickerSymbol": "RTX"
+        },
+        {
+          "companyName": "Boeing Company",
+          "tickerSymbol": "BA"
+        },
+        {
+          "companyName": "General Electric Company",
+          "tickerSymbol": "GE"
+        },
+        {
+          "companyName": "Honeywell International Inc.",
+          "tickerSymbol": "HON"
+        },
+        {
+          "companyName": "United Technologies Corporation",
+          "tickerSymbol": "UTX"
+        },
+        {
+          "companyName": "3M Company",
+          "tickerSymbol": "MMM"
+        },
+        {
+          "companyName": "FedEx Corporation",
+          "tickerSymbol": "FDX"
+        },
+        {
+          "companyName": "United Parcel Service, Inc.",
+          "tickerSymbol": "UPS"
+        },
+        {
+          "companyName": "CSX Corporation",
+          "tickerSymbol": "CSX"
+        },
+        {
+          "companyName": "Norfolk Southern Corporation",
+          "tickerSymbol": "NSC"
+        },
+        {
+          "companyName": "Union Pacific Corporation",
+          "tickerSymbol": "UNP"
+        },
+        {
+          "companyName": "Delta Air Lines, Inc.",
+          "tickerSymbol": "DAL"
+        },
+        {
+          "companyName": "General Dynamics Corporation",
+          "tickerSymbol": "GD"
+        },
+        {
+          "companyName": "Northrop Grumman Corporation",
+          "tickerSymbol": "NOC"
+        },
+        {
+          "companyName": "Raytheon Company",
+          "tickerSymbol": "RTN"
+        },
+        {
+          "companyName": "Emerson Electric Co.",
+          "tickerSymbol": "EMR"
+        },
+        {
+          "companyName": "Eaton Corporation plc",
+          "tickerSymbol": "ETN"
+        },
+        {
+          "companyName": "ABB Ltd",
+          "tickerSymbol": "ABB"
+        },
+        {
+          "companyName": "Siemens AG",
+          "tickerSymbol": "SIE.DE"
+        },
+        {
+          "companyName": "Schneider Electric SE",
+          "tickerSymbol": "SU.PA"
+        },
+        {
+          "companyName": "Mitsubishi Electric Corporation",
+          "tickerSymbol": "6503.T"
+        },
+        {
+          "companyName": "Hitachi, Ltd.",
+          "tickerSymbol": "6501.T"
+        },
+        {
+          "companyName": "Komatsu Ltd.",
+          "tickerSymbol": "6301.T"
+        }
+      ]
+    },
+  {
+      "industry": "Real Estate",
+      "stocks": [
+        {
+          "companyName": "American Tower Corporation",
+          "tickerSymbol": "AMT"
+        },
+        {
+          "companyName": "Simon Property Group, Inc.",
+          "tickerSymbol": "SPG"
+        },
+        {
+          "companyName": "Prologis, Inc.",
+          "tickerSymbol": "PLD"
+        },
+        {
+          "companyName": "Equity Residential",
+          "tickerSymbol": "EQR"
+        },
+        {
+          "companyName": "Public Storage",
+          "tickerSymbol": "PSA"
+        },
+        {
+          "companyName": "Welltower Inc.",
+          "tickerSymbol": "WELL"
+        },
+        {
+          "companyName": "AvalonBay Communities, Inc.",
+          "tickerSymbol": "AVB"
+        },
+        {
+          "companyName": "Digital Realty Trust, Inc.",
+          "tickerSymbol": "DLR"
+        },
+        {
+          "companyName": "Ventas, Inc.",
+          "tickerSymbol": "VTR"
+        },
+        {
+          "companyName": "Alexandria Real Estate Equities, Inc.",
+          "tickerSymbol": "ARE"
+        },
+        {
+          "companyName": "Weyerhaeuser Company",
+          "tickerSymbol": "WY"
+        },
+        {
+          "companyName": "CBRE Group, Inc.",
+          "tickerSymbol": "CBRE"
+        },
+        {
+          "companyName": "Jones Lang LaSalle Incorporated",
+          "tickerSymbol": "JLL"
+        },
+        {
+          "companyName": "Boston Properties, Inc.",
+          "tickerSymbol": "BXP"
+        },
+        {
+          "companyName": "Vornado Realty Trust",
+          "tickerSymbol": "VNO"
+        },
+        {
+          "companyName": "SBA Communications Corporation",
+          "tickerSymbol": "SBAC"
+        },
+        {
+          "companyName": "Essex Property Trust, Inc.",
+          "tickerSymbol": "ESS"
+        },
+        {
+          "companyName": "Duke Realty Corporation",
+          "tickerSymbol": "DRE"
+        },
+        {
+          "companyName": "HCP, Inc.",
+          "tickerSymbol": "HCP"
+        },
+        {
+          "companyName": "Extra Space Storage Inc.",
+          "tickerSymbol": "EXR"
+        },
+        {
+          "companyName": "Federal Realty Investment Trust",
+          "tickerSymbol": "FRT"
+        },
+        {
+          "companyName": "Kimco Realty Corporation",
+          "tickerSymbol": "KIM"
+        },
+        {
+          "companyName": "SL Green Realty Corp.",
+          "tickerSymbol": "SLG"
+        },
+        {
+          "companyName": "Equinix, Inc.",
+          "tickerSymbol": "EQIX"
+        },
+        {
+          "companyName": "Boston Properties, Inc.",
+          "tickerSymbol": "BXP"
+        },
+        {
+          "companyName": "Realty Income Corporation",
+          "tickerSymbol": "O"
+        },
+        {
+          "companyName": "Digital Realty Trust, Inc.",
+          "tickerSymbol": "DLR"
+        },
+        {
+          "companyName": "Vornado Realty Trust",
+          "tickerSymbol": "VNO"
+        },
+        {
+          "companyName": "Kimco Realty Corporation",
+          "tickerSymbol": "KIM"
+        },
+        {
+          "companyName": "Simon Property Group, Inc.",
+          "tickerSymbol": "SPG"
+        },
+        {
+          "companyName": "Equity Residential",
+          "tickerSymbol": "EQR"
+        },
+        {
+          "companyName": "Public Storage",
+          "tickerSymbol": "PSA"
+        },
+        {
+          "companyName": "Welltower Inc.",
+          "tickerSymbol": "WELL"
+        },
+        {
+          "companyName": "Prologis, Inc.",
+          "tickerSymbol": "PLD"
+        },
+        {
+          "companyName": "AvalonBay Communities, Inc.",
+          "tickerSymbol": "AVB"
+        },
+        {
+          "companyName": "Alexandria Real Estate Equities, Inc.",
+          "tickerSymbol": "ARE"
+        },
+        {
+          "companyName": "Federal Realty Investment Trust",
+          "tickerSymbol": "FRT"
+        },
+        {
+          "companyName": "Essex Property Trust, Inc.",
+          "tickerSymbol": "ESS"
+        },
+        {
+          "companyName": "Duke Realty Corporation",
+          "tickerSymbol": "DRE"
+        },
+        {
+          "companyName": "HCP, Inc.",
+          "tickerSymbol": "HCP"
+        },
+        {
+          "companyName": "Extra Space Storage Inc.",
+          "tickerSymbol": "EXR"
+        },
+        {
+          "companyName": "SL Green Realty Corp.",
+          "tickerSymbol": "SLG"
+        },
+        {
+          "companyName": "Equinix, Inc.",
+          "tickerSymbol": "EQIX"
+        },
+        {
+          "companyName": "CBRE Group, Inc.",
+          "tickerSymbol": "CBRE"
+        },
+        {
+          "companyName": "Jones Lang LaSalle Incorporated",
+          "tickerSymbol": "JLL"
+        },
+        {
+          "companyName": "Rayonier Inc.",
+          "tickerSymbol": "RYN"
+        },
+        {
+          "companyName": "Iron Mountain Incorporated",
+          "tickerSymbol": "IRM"
+        },
+        {
+          "companyName": "Crown Castle International Corp.",
+          "tickerSymbol": "CCI"
+        },
+        {
+          "companyName": "CyrusOne Inc.",
+          "tickerSymbol": "CONE"
+        },
+        {
+          "companyName": "Host Hotels & Resorts, Inc.",
+          "tickerSymbol": "HST"
+        },
+        {
+          "companyName": "Omega Healthcare Investors, Inc.",
+          "tickerSymbol": "OHI"
+        },
+        {
+          "companyName": "UDR, Inc.",
+          "tickerSymbol": "UDR"
+        },
+        {
+          "companyName": "Equity Lifestyle Properties, Inc.",
+          "tickerSymbol": "ELS"
+        },
+        {
+          "companyName": "Sun Communities, Inc.",
+          "tickerSymbol": "SUI"
+        },
+        {
+          "companyName": "National Retail Properties, Inc.",
+          "tickerSymbol": "NNN"
+        },
+        {
+          "companyName": "Medical Properties Trust, Inc.",
+          "tickerSymbol": "MPW"
+        },
+        {
+          "companyName": "American Campus Communities, Inc.",
+          "tickerSymbol": "ACC"
+        },
+        {
+          "companyName": "Ventas, Inc.",
+          "tickerSymbol": "VTR"
+        },
+        {
+          "companyName": "Kilroy Realty Corporation",
+          "tickerSymbol": "KRC"
+        },
+        {
+          "companyName": "CubeSmart",
+          "tickerSymbol": "CUBE"
+        },
+        {
+          "companyName": "Weyerhaeuser Company",
+          "tickerSymbol": "WY"
+        },
+        {
+          "companyName": "Lamar Advertising Company",
+          "tickerSymbol": "LAMR"
+        }
+      ]
+    },
+  {
+      "industry": "Communication Services",
+      "stocks": [
+        {
+          "companyName": "Alphabet Inc.",
+          "tickerSymbol": "GOOGL"
+        },
+        {
+          "companyName": "Facebook, Inc.",
+          "tickerSymbol": "FB"
+        },
+        {
+          "companyName": "Netflix, Inc.",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "The Walt Disney Company",
+          "tickerSymbol": "DIS"
+        },
+        {
+          "companyName": "Comcast Corporation",
+          "tickerSymbol": "CMCSA"
+        },
+        {
+          "companyName": "AT&T Inc.",
+          "tickerSymbol": "T"
+        },
+        {
+          "companyName": "Verizon Communications Inc.",
+          "tickerSymbol": "VZ"
+        },
+        {
+          "companyName": "Charter Communications, Inc.",
+          "tickerSymbol": "CHTR"
+        },
+        {
+          "companyName": "T-Mobile US, Inc.",
+          "tickerSymbol": "TMUS"
+        },
+        {
+          "companyName": "ViacomCBS Inc.",
+          "tickerSymbol": "VIAC"
+        },
+        {
+          "companyName": "Twitter, Inc.",
+          "tickerSymbol": "TWTR"
+        },
+        {
+          "companyName": "Snap Inc.",
+          "tickerSymbol": "SNAP"
+        },
+        {
+          "companyName": "Activision Blizzard, Inc.",
+          "tickerSymbol": "ATVI"
+        },
+        {
+          "companyName": "Electronic Arts Inc.",
+          "tickerSymbol": "EA"
+        },
+        {
+          "companyName": "Take-Two Interactive Software, Inc.",
+          "tickerSymbol": "TTWO"
+        },
+        {
+          "companyName": "Sony Group Corporation",
+          "tickerSymbol": "SONY"
+        },
+        {
+          "companyName": "Lions Gate Entertainment Corp.",
+          "tickerSymbol": "LGF.A"
+        },
+        {
+          "companyName": "Discovery, Inc.",
+          "tickerSymbol": "DISCA"
+        },
+        {
+          "companyName": "The New York Times Company",
+          "tickerSymbol": "NYT"
+        },
+        {
+          "companyName": "Alibaba Group Holding Limited",
+          "tickerSymbol": "BABA"
+        },
+        {
+          "companyName": "Baidu, Inc.",
+          "tickerSymbol": "BIDU"
+        },
+        {
+          "companyName": "Tencent Holdings Limited",
+          "tickerSymbol": "TCEHY"
+        },
+        {
+          "companyName": "NetEase, Inc.",
+          "tickerSymbol": "NTES"
+        },
+        {
+          "companyName": "Activision Blizzard, Inc.",
+          "tickerSymbol": "ATVI"
+        },
+        {
+          "companyName": "Electronic Arts Inc.",
+          "tickerSymbol": "EA"
+        },
+        {
+          "companyName": "Take-Two Interactive Software, Inc.",
+          "tickerSymbol": "TTWO"
+        },
+        {
+          "companyName": "Ubisoft Entertainment SA",
+          "tickerSymbol": "UBI.PA"
+        },
+        {
+          "companyName": "Square, Inc.",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "Match Group, Inc.",
+          "tickerSymbol": "MTCH"
+        },
+        {
+          "companyName": "IAC/InterActiveCorp",
+          "tickerSymbol": "IAC"
+        },
+        {
+          "companyName": "eBay Inc.",
+          "tickerSymbol": "EBAY"
+        },
+        {
+          "companyName": "PayPal Holdings, Inc.",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Adobe Inc.",
+          "tickerSymbol": "ADBE"
+        },
+        {
+          "companyName": "Salesforce.com, Inc.",
+          "tickerSymbol": "CRM"
+        },
+        {
+          "companyName": "Zoom Video Communications, Inc.",
+          "tickerSymbol": "ZM"
+        },
+        {
+          "companyName": "DocuSign, Inc.",
+          "tickerSymbol": "DOCU"
+        },
+        {
+          "companyName": "Twilio Inc.",
+          "tickerSymbol": "TWLO"
+        },
+        {
+          "companyName": "RingCentral, Inc.",
+          "tickerSymbol": "RNG"
+        },
+        {
+          "companyName": "NVIDIA Corporation",
+          "tickerSymbol": "NVDA"
+        },
+        {
+          "companyName": "Advanced Micro Devices, Inc.",
+          "tickerSymbol": "AMD"
+        },
+        {
+          "companyName": "Intel Corporation",
+          "tickerSymbol": "INTC"
+        },
+        {
+          "companyName": "QUALCOMM Incorporated",
+          "tickerSymbol": "QCOM"
+        },
+        {
+          "companyName": "Apple Inc.",
+          "tickerSymbol": "AAPL"
+        },
+        {
+          "companyName": "Microsoft Corporation",
+          "tickerSymbol": "MSFT"
+        },
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Netflix, Inc.",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "Alphabet Inc.",
+          "tickerSymbol": "GOOGL"
+        },
+        {
+          "companyName": "Facebook, Inc.",
+          "tickerSymbol": "FB"
+        },
+        {
+          "companyName": "Twitter, Inc.",
+          "tickerSymbol": "TWTR"
+        },
+        {
+          "companyName": "Snap Inc.",
+          "tickerSymbol": "SNAP"
+        },
+        {
+          "companyName": "Pinterest, Inc.",
+          "tickerSymbol": "PINS"
+        },
+        {
+          "companyName": "LinkedIn Corporation",
+          "tickerSymbol": "LNKD"
+        },
+        {
+          "companyName": "Slack Technologies, Inc.",
+          "tickerSymbol": "WORK"
+        },
+        {
+          "companyName": "Zoom Video Communications, Inc.",
+          "tickerSymbol": "ZM"
+        },
+        {
+          "companyName": "DocuSign, Inc.",
+          "tickerSymbol": "DOCU"
+        },
+        {
+          "companyName": "Twilio Inc.",
+          "tickerSymbol": "TWLO"
+        },
+        {
+          "companyName": "RingCentral, Inc.",
+          "tickerSymbol": "RNG"
+        },
+        {
+          "companyName": "Microsoft Corporation",
+          "tickerSymbol": "MSFT"
+        },
+        {
+          "companyName": "Apple Inc.",
+          "tickerSymbol": "AAPL"
+        },
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Salesforce.com, Inc.",
+          "tickerSymbol": "CRM"
+        },
+        {
+          "companyName": "Adobe Inc.",
+          "tickerSymbol": "ADBE"
+        },
+        {
+          "companyName": "PayPal Holdings, Inc.",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Netflix, Inc.",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "Alphabet Inc.",
+          "tickerSymbol": "GOOGL"
+        },
+        {
+          "companyName": "Facebook, Inc.",
+          "tickerSymbol": "FB"
+        },
+        {
+          "companyName": "Twitter, Inc.",
+          "tickerSymbol": "TWTR"
+        },
+        {
+          "companyName": "Snap Inc.",
+          "tickerSymbol": "SNAP"
+        },
+        {
+          "companyName": "Pinterest, Inc.",
+          "tickerSymbol": "PINS"
+        },
+        {
+          "companyName": "LinkedIn Corporation",
+          "tickerSymbol": "LNKD"
+        },
+        {
+          "companyName": "Slack Technologies, Inc.",
+          "tickerSymbol": "WORK"
+        }
+      ]
+    },
+  {
+      "industry": "Utilities",
+      "stocks": [
+        {
+          "companyName": "NextEra Energy, Inc.",
+          "tickerSymbol": "NEE"
+        },
+        {
+          "companyName": "Dominion Energy, Inc.",
+          "tickerSymbol": "D"
+        },
+        {
+          "companyName": "Southern Company",
+          "tickerSymbol": "SO"
+        },
+        {
+          "companyName": "Exelon Corporation",
+          "tickerSymbol": "EXC"
+        },
+        {
+          "companyName": "Duke Energy Corporation",
+          "tickerSymbol": "DUK"
+        },
+        {
+          "companyName": "American Electric Power Company, Inc.",
+          "tickerSymbol": "AEP"
+        },
+        {
+          "companyName": "NextEra Energy Partners, LP",
+          "tickerSymbol": "NEP"
+        },
+        {
+          "companyName": "Consolidated Edison, Inc.",
+          "tickerSymbol": "ED"
+        },
+        {
+          "companyName": "PG&E Corporation",
+          "tickerSymbol": "PCG"
+        },
+        {
+          "companyName": "Edison International",
+          "tickerSymbol": "EIX"
+        },
+        {
+          "companyName": "Sempra Energy",
+          "tickerSymbol": "SRE"
+        },
+        {
+          "companyName": "Public Service Enterprise Group Incorporated",
+          "tickerSymbol": "PEG"
+        },
+        {
+          "companyName": "FirstEnergy Corp.",
+          "tickerSymbol": "FE"
+        },
+        {
+          "companyName": "Eversource Energy",
+          "tickerSymbol": "ES"
+        },
+        {
+          "companyName": "Xcel Energy Inc.",
+          "tickerSymbol": "XEL"
+        },
+        {
+          "companyName": "Entergy Corporation",
+          "tickerSymbol": "ETR"
+        },
+        {
+          "companyName": "Ameren Corporation",
+          "tickerSymbol": "AEE"
+        },
+        {
+          "companyName": "CMS Energy Corporation",
+          "tickerSymbol": "CMS"
+        },
+        {
+          "companyName": "CenterPoint Energy, Inc.",
+          "tickerSymbol": "CNP"
+        },
+        {
+          "companyName": "PPL Corporation",
+          "tickerSymbol": "PPL"
+        },
+        {
+          "companyName": "NiSource Inc.",
+          "tickerSymbol": "NI"
+        },
+        {
+          "companyName": "Evergy, Inc.",
+          "tickerSymbol": "EVRG"
+        },
+        {
+          "companyName": "Dominion Energy Midstream Partners, LP",
+          "tickerSymbol": "DM"
+        },
+        {
+          "companyName": "Brookfield Renewable Partners L.P.",
+          "tickerSymbol": "BEP"
+        },
+        {
+          "companyName": "TransAlta Renewables Inc.",
+          "tickerSymbol": "RNW.TO"
+        },
+        {
+          "companyName": "Orsted A/S",
+          "tickerSymbol": "ORSTED.CO"
+        },
+        {
+          "companyName": "Enel SpA",
+          "tickerSymbol": "ENEL.MI"
+        },
+        {
+          "companyName": "Iberdrola, S.A.",
+          "tickerSymbol": "IBE.MC"
+        },
+        {
+          "companyName": "National Grid plc",
+          "tickerSymbol": "NG.L"
+        },
+        {
+          "companyName": "EDP - Energias de Portugal, S.A.",
+          "tickerSymbol": "EDP.LS"
+        },
+        {
+          "companyName": "Fortis Inc.",
+          "tickerSymbol": "FTS.TO"
+        },
+        {
+          "companyName": "EDF",
+          "tickerSymbol": "EDF.PA"
+        },
+        {
+          "companyName": "E.ON SE",
+          "tickerSymbol": "EOAN.DE"
+        },
+        {
+          "companyName": "RWE AG",
+          "tickerSymbol": "RWE.DE"
+        },
+        {
+          "companyName": "Engie SA",
+          "tickerSymbol": "ENGI.PA"
+        },
+        {
+          "companyName": "AES Corporation",
+          "tickerSymbol": "AES"
+        },
+        {
+          "companyName": "NRG Energy, Inc.",
+          "tickerSymbol": "NRG"
+        },
+        {
+          "companyName": "Vistra Energy Corp.",
+          "tickerSymbol": "VST"
+        },
+        {
+          "companyName": "Pinnacle West Capital Corporation",
+          "tickerSymbol": "PNW"
+        },
+        {
+          "companyName": "WEC Energy Group, Inc.",
+          "tickerSymbol": "WEC"
+        },
+        {
+          "companyName": "AmeriGas Partners, L.P.",
+          "tickerSymbol": "APU"
+        },
+        {
+          "companyName": "South Jersey Industries, Inc.",
+          "tickerSymbol": "SJI"
+        },
+        {
+          "companyName": "MDU Resources Group, Inc.",
+          "tickerSymbol": "MDU"
+        },
+        {
+          "companyName": "OGE Energy Corp.",
+          "tickerSymbol": "OGE"
+        },
+        {
+          "companyName": "Algonquin Power & Utilities Corp.",
+          "tickerSymbol": "AQN"
+        },
+        {
+          "companyName": "Dominion Energy, Inc.",
+          "tickerSymbol": "D"
+        },
+        {
+          "companyName": "Southern Company",
+          "tickerSymbol": "SO"
+        },
+        {
+          "companyName": "NextEra Energy, Inc.",
+          "tickerSymbol": "NEE"
+        },
+        {
+          "companyName": "Exelon Corporation",
+          "tickerSymbol": "EXC"
+        },
+        {
+          "companyName": "Duke Energy Corporation",
+          "tickerSymbol": "DUK"
+        },
+        {
+          "companyName": "American Electric Power Company, Inc.",
+          "tickerSymbol": "AEP"
+        },
+        {
+          "companyName": "Consolidated Edison, Inc.",
+          "tickerSymbol": "ED"
+        },
+        {
+          "companyName": "PG&E Corporation",
+          "tickerSymbol": "PCG"
+        },
+        {
+          "companyName": "Edison International",
+          "tickerSymbol": "EIX"
+        },
+        {
+          "companyName": "Sempra Energy",
+          "tickerSymbol": "SRE"
+        },
+        {
+          "companyName": "Public Service Enterprise Group Incorporated",
+          "tickerSymbol": "PEG"
+        },
+        {
+          "companyName": "FirstEnergy Corp.",
+          "tickerSymbol": "FE"
+        },
+        {
+          "companyName": "Eversource Energy",
+          "tickerSymbol": "ES"
+        },
+        {
+          "companyName": "Xcel Energy Inc.",
+          "tickerSymbol": "XEL"
+        },
+        {
+          "companyName": "Entergy Corporation",
+          "tickerSymbol": "ETR"
+        },
+        {
+          "companyName": "Ameren Corporation",
+          "tickerSymbol": "AEE"
+        },
+        {
+          "companyName": "CMS Energy Corporation",
+          "tickerSymbol": "CMS"
+        },
+        {
+          "companyName": "CenterPoint Energy, Inc.",
+          "tickerSymbol": "CNP"
+        },
+        {
+          "companyName": "PPL Corporation",
+          "tickerSymbol": "PPL"
+        },
+        {
+          "companyName": "NiSource Inc.",
+          "tickerSymbol": "NI"
+        },
+        {
+          "companyName": "Evergy, Inc.",
+          "tickerSymbol": "EVRG"
+        },
+        {
+          "companyName": "Dominion Energy Midstream Partners, LP",
+          "tickerSymbol": "DM"
+        },
+        {
+          "companyName": "Brookfield Renewable Partners L.P.",
+          "tickerSymbol": "BEP"
+        },
+        {
+          "companyName": "TransAlta Renewables Inc.",
+          "tickerSymbol": "RNW.TO"
+        },
+        {
+          "companyName": "Orsted A/S",
+          "tickerSymbol": "ORSTED.CO"
+        },
+        {
+          "companyName": "Enel SpA",
+          "tickerSymbol": "ENEL.MI"
+        },
+        {
+          "companyName": "Iberdrola, S.A.",
+          "tickerSymbol": "IBE.MC"
+        },
+        {
+          "companyName": "National Grid plc",
+          "tickerSymbol": "NG.L"
+        },
+        {
+          "companyName": "EDP - Energias de Portugal, S.A.",
+          "tickerSymbol": "EDP.LS"
+        },
+        {
+          "companyName": "Fortis Inc.",
+          "tickerSymbol": "FTS.TO"
+        },
+        {
+          "companyName": "EDF",
+          "tickerSymbol": "EDF.PA"
+        },
+        {
+          "companyName": "E.ON SE",
+          "tickerSymbol": "EOAN.DE"
+        },
+        {
+          "companyName": "RWE AG",
+          "tickerSymbol": "RWE.DE"
+        },
+        {
+          "companyName": "Engie SA",
+          "tickerSymbol": "ENGI.PA"
+        },
+        {
+          "companyName": "AES Corporation",
+          "tickerSymbol": "AES"
+        },
+        {
+          "companyName": "NRG Energy, Inc.",
+          "tickerSymbol": "NRG"
+        },
+        {
+          "companyName": "Vistra Energy Corp.",
+          "tickerSymbol": "VST"
+        },
+        {
+          "companyName": "Pinnacle West Capital Corporation",
+          "tickerSymbol": "PNW"
+        },
+        {
+          "companyName": "WEC Energy Group, Inc.",
+          "tickerSymbol": "WEC"
+        },
+        {
+          "companyName": "AmeriGas Partners, L.P.",
+          "tickerSymbol": "APU"
+        },
+        {
+          "companyName": "South Jersey Industries, Inc.",
+          "tickerSymbol": "SJI"
+        },
+        {
+          "companyName": "MDU Resources Group, Inc.",
+          "tickerSymbol": "MDU"
+        },
+        {
+          "companyName": "OGE Energy Corp.",
+          "tickerSymbol": "OGE"
+        },
+        {
+          "companyName": "Algonquin Power & Utilities Corp.",
+          "tickerSymbol": "AQN"
+        }
+      ]
+    },
+  {
+      "industry": "Basic Materials",
+      "stocks": [
+        {
+          "companyName": "BHP Group",
+          "tickerSymbol": "BHP"
+        },
+        {
+          "companyName": "Rio Tinto Group",
+          "tickerSymbol": "RIO"
+        },
+        {
+          "companyName": "Vale S.A.",
+          "tickerSymbol": "VALE"
+        },
+        {
+          "companyName": "Anglo American plc",
+          "tickerSymbol": "AAL.L"
+        },
+        {
+          "companyName": "Glencore plc",
+          "tickerSymbol": "GLEN.L"
+        },
+        {
+          "companyName": "Freeport-McMoRan Inc.",
+          "tickerSymbol": "FCX"
+        },
+        {
+          "companyName": "Newmont Corporation",
+          "tickerSymbol": "NEM"
+        },
+        {
+          "companyName": "Barrick Gold Corporation",
+          "tickerSymbol": "GOLD"
+        },
+        {
+          "companyName": "Alcoa Corporation",
+          "tickerSymbol": "AA"
+        },
+        {
+          "companyName": "Mosaic Company",
+          "tickerSymbol": "MOS"
+        },
+        {
+          "companyName": "Linde plc",
+          "tickerSymbol": "LIN"
+        },
+        {
+          "companyName": "Air Products and Chemicals, Inc.",
+          "tickerSymbol": "APD"
+        },
+        {
+          "companyName": "Dow Inc.",
+          "tickerSymbol": "DOW"
+        },
+        {
+          "companyName": "LyondellBasell Industries N.V.",
+          "tickerSymbol": "LYB"
+        },
+        {
+          "companyName": "BASF SE",
+          "tickerSymbol": "BAS.DE"
+        },
+        {
+          "companyName": "Sinopec Shanghai Petrochemical Company Limited",
+          "tickerSymbol": "SHI"
+        },
+        {
+          "companyName": "Yara International ASA",
+          "tickerSymbol": "YAR.OL"
+        },
+        {
+          "companyName": "Nutrien Ltd.",
+          "tickerSymbol": "NTR"
+        },
+        {
+          "companyName": "DowDuPont Inc.",
+          "tickerSymbol": "DWDP"
+        },
+        {
+          "companyName": "Reliance Industries Limited",
+          "tickerSymbol": "RELIANCE.NS"
+        },
+        {
+          "companyName": "POSCO",
+          "tickerSymbol": "PKX"
+        },
+        {
+          "companyName": "Formosa Plastics Corporation",
+          "tickerSymbol": "1301.TW"
+        },
+        {
+          "companyName": "Vedanta Limited",
+          "tickerSymbol": "VEDL"
+        },
+        {
+          "companyName": "Nucor Corporation",
+          "tickerSymbol": "NUE"
+        },
+        {
+          "companyName": "Steel Dynamics, Inc.",
+          "tickerSymbol": "STLD"
+        },
+        {
+          "companyName": "Cleveland-Cliffs Inc.",
+          "tickerSymbol": "CLF"
+        },
+        {
+          "companyName": "ArcelorMittal",
+          "tickerSymbol": "MT"
+        },
+        {
+          "companyName": "Ecolab Inc.",
+          "tickerSymbol": "ECL"
+        },
+        {
+          "companyName": "International Paper Company",
+          "tickerSymbol": "IP"
+        },
+        {
+          "companyName": "Packaging Corporation of America",
+          "tickerSymbol": "PKG"
+        },
+        {
+          "companyName": "WestRock Company",
+          "tickerSymbol": "WRK"
+        },
+        {
+          "companyName": "Weyerhaeuser Company",
+          "tickerSymbol": "WY"
+        },
+        {
+          "companyName": "Domtar Corporation",
+          "tickerSymbol": "UFS"
+        },
+        {
+          "companyName": "Klabin S.A.",
+          "tickerSymbol": "KLBN11.SA"
+        },
+        {
+          "companyName": "KapStone Paper and Packaging Corporation",
+          "tickerSymbol": "KS"
+        },
+        {
+          "companyName": "Celanese Corporation",
+          "tickerSymbol": "CE"
+        },
+        {
+          "companyName": "Dow Inc.",
+          "tickerSymbol": "DOW"
+        },
+        {
+          "companyName": "LyondellBasell Industries N.V.",
+          "tickerSymbol": "LYB"
+        },
+        {
+          "companyName": "BASF SE",
+          "tickerSymbol": "BAS.DE"
+        },
+        {
+          "companyName": "Sinopec Shanghai Petrochemical Company Limited",
+          "tickerSymbol": "SHI"
+        },
+        {
+          "companyName": "Yara International ASA",
+          "tickerSymbol": "YAR.OL"
+        },
+        {
+          "companyName": "Nutrien Ltd.",
+          "tickerSymbol": "NTR"
+        },
+        {
+          "companyName": "DowDuPont Inc.",
+          "tickerSymbol": "DWDP"
+        },
+        {
+          "companyName": "Reliance Industries Limited",
+          "tickerSymbol": "RELIANCE.NS"
+        },
+        {
+          "companyName": "POSCO",
+          "tickerSymbol": "PKX"
+        },
+        {
+          "companyName": "Formosa Plastics Corporation",
+          "tickerSymbol": "1301.TW"
+        },
+        {
+          "companyName": "Vedanta Limited",
+          "tickerSymbol": "VEDL"
+        },
+        {
+          "companyName": "Nucor Corporation",
+          "tickerSymbol": "NUE"
+        },
+        {
+          "companyName": "Steel Dynamics, Inc.",
+          "tickerSymbol": "STLD"
+        },
+        {
+          "companyName": "Cleveland-Cliffs Inc.",
+          "tickerSymbol": "CLF"
+        },
+        {
+          "companyName": "ArcelorMittal",
+          "tickerSymbol": "MT"
+        },
+        {
+          "companyName": "Ecolab Inc.",
+          "tickerSymbol": "ECL"
+        },
+        {
+          "companyName": "International Paper Company",
+          "tickerSymbol": "IP"
+        },
+        {
+          "companyName": "Packaging Corporation of America",
+          "tickerSymbol": "PKG"
+        },
+        {
+          "companyName": "WestRock Company",
+          "tickerSymbol": "WRK"
+        },
+        {
+          "companyName": "Weyerhaeuser Company",
+          "tickerSymbol": "WY"
+        },
+        {
+          "companyName": "Domtar Corporation",
+          "tickerSymbol": "UFS"
+        },
+        {
+          "companyName": "Klabin S.A.",
+          "tickerSymbol": "KLBN11.SA"
+        },
+        {
+          "companyName": "KapStone Paper and Packaging Corporation",
+          "tickerSymbol": "KS"
+        },
+        {
+          "companyName": "Celanese Corporation",
+          "tickerSymbol": "CE"
+        },
+        {
+          "companyName": "PPG Industries, Inc.",
+          "tickerSymbol": "PPG"
+        },
+        {
+          "companyName": "Sherwin-Williams Company",
+          "tickerSymbol": "SHW"
+        },
+        {
+          "companyName": "Air Liquide S.A.",
+          "tickerSymbol": "AI.PA"
+        },
+        {
+          "companyName": "Linde plc",
+          "tickerSymbol": "LIN"
+        },
+        {
+          "companyName": "Praxair, Inc.",
+          "tickerSymbol": "PX"
+        },
+        {
+          "companyName": "Chemours Company",
+          "tickerSymbol": "CC"
+        },
+        {
+          "companyName": "Axalta Coating Systems Ltd.",
+          "tickerSymbol": "AXTA"
+        },
+        {
+          "companyName": "FMC Corporation",
+          "tickerSymbol": "FMC"
+        },
+        {
+          "companyName": "Lanxess AG",
+          "tickerSymbol": "LXS.DE"
+        },
+        {
+          "companyName": "Arkema S.A.",
+          "tickerSymbol": "AKE.PA"
+        },
+        {
+          "companyName": "Methanex Corporation",
+          "tickerSymbol": "MEOH"
+        },
+        {
+          "companyName": "ChemChina",
+          "tickerSymbol": "601117.SS"
+        },
+        {
+          "companyName": "Sinopec Corp",
+          "tickerSymbol": "386.HK"
+        },
+        {
+          "companyName": "Saudi Basic Industries Corporation",
+          "tickerSymbol": "2010.SR"
+        },
+        {
+          "companyName": "The Mosaic Company",
+          "tickerSymbol": "MOS"
+        },
+        {
+          "companyName": "Nutrien Ltd.",
+          "tickerSymbol": "NTR"
+        },
+        {
+          "companyName": "PPG Industries, Inc.",
+          "tickerSymbol": "PPG"
+        },
+        {
+          "companyName": "Sherwin-Williams Company",
+          "tickerSymbol": "SHW"
+        },
+        {
+          "companyName": "Air Liquide S.A.",
+          "tickerSymbol": "AI.PA"
+        },
+        {
+          "companyName": "Linde plc",
+          "tickerSymbol": "LIN"
+        },
+        {
+          "companyName": "Praxair, Inc.",
+          "tickerSymbol": "PX"
+        },
+        {
+          "companyName": "Chemours Company",
+          "tickerSymbol": "CC"
+        },
+        {
+          "companyName": "Axalta Coating Systems Ltd.",
+          "tickerSymbol": "AXTA"
+        },
+        {
+          "companyName": "FMC Corporation",
+          "tickerSymbol": "FMC"
+        },
+        {
+          "companyName": "Lanxess AG",
+          "tickerSymbol": "LXS.DE"
+        },
+        {
+          "companyName": "Arkema S.A.",
+          "tickerSymbol": "AKE.PA"
+        },
+        {
+          "companyName": "Methanex Corporation",
+          "tickerSymbol": "MEOH"
+        },
+        {
+          "companyName": "ChemChina",
+          "tickerSymbol": "601117.SS"
+        },
+        {
+          "companyName": "Sinopec Corp",
+          "tickerSymbol": "386.HK"
+        },
+        {
+          "companyName": "Saudi Basic Industries Corporation",
+          "tickerSymbol": "2010.SR"
+        }
+      ]
+    },
+  {
+      "industry": "Transport",
+      "stocks": [
+        {
+          "companyName": "United Parcel Service, Inc.",
+          "tickerSymbol": "UPS"
+        },
+        {
+          "companyName": "FedEx Corporation",
+          "tickerSymbol": "FDX"
+        },
+        {
+          "companyName": "Delta Air Lines, Inc.",
+          "tickerSymbol": "DAL"
+        },
+        {
+          "companyName": "American Airlines Group Inc.",
+          "tickerSymbol": "AAL"
+        },
+        {
+          "companyName": "United Airlines Holdings, Inc.",
+          "tickerSymbol": "UAL"
+        },
+        {
+          "companyName": "Southwest Airlines Co.",
+          "tickerSymbol": "LUV"
+        },
+        {
+          "companyName": "Alaska Air Group, Inc.",
+          "tickerSymbol": "ALK"
+        },
+        {
+          "companyName": "JetBlue Airways Corporation",
+          "tickerSymbol": "JBLU"
+        },
+        {
+          "companyName": "Ryanair Holdings plc",
+          "tickerSymbol": "RYAAY"
+        },
+        {
+          "companyName": "easyJet plc",
+          "tickerSymbol": "EZJ.L"
+        },
+        {
+          "companyName": "Air France-KLM SA",
+          "tickerSymbol": "AF.PA"
+        },
+        {
+          "companyName": "Deutsche Lufthansa AG",
+          "tickerSymbol": "LHA.DE"
+        },
+        {
+          "companyName": "British Airways Plc",
+          "tickerSymbol": "BA.L"
+        },
+        {
+          "companyName": "International Consolidated Airlines Group, S.A.",
+          "tickerSymbol": "IAG.L"
+        },
+        {
+          "companyName": "Singapore Airlines Limited",
+          "tickerSymbol": "SIA.SI"
+        },
+        {
+          "companyName": "Cathay Pacific Airways Limited",
+          "tickerSymbol": "0293.HK"
+        },
+        {
+          "companyName": "ANA Holdings Inc.",
+          "tickerSymbol": "9202.T"
+        },
+        {
+          "companyName": "China Southern Airlines Company Limited",
+          "tickerSymbol": "1055.HK"
+        },
+        {
+          "companyName": "China Eastern Airlines Corporation Limited",
+          "tickerSymbol": "0670.HK"
+        },
+        {
+          "companyName": "Allegiant Travel Company",
+          "tickerSymbol": "ALGT"
+        },
+        {
+          "companyName": "Hawaiian Holdings, Inc.",
+          "tickerSymbol": "HA"
+        },
+        {
+          "companyName": "Spirit Airlines, Inc.",
+          "tickerSymbol": "SAVE"
+        },
+        {
+          "companyName": "Avis Budget Group, Inc.",
+          "tickerSymbol": "CAR"
+        },
+        {
+          "companyName": "Hertz Global Holdings, Inc.",
+          "tickerSymbol": "HTZGQ"
+        },
+        {
+          "companyName": "Uber Technologies, Inc.",
+          "tickerSymbol": "UBER"
+        },
+        {
+          "companyName": "Lyft, Inc.",
+          "tickerSymbol": "LYFT"
+        },
+        {
+          "companyName": "C.H. Robinson Worldwide, Inc.",
+          "tickerSymbol": "CHRW"
+        },
+        {
+          "companyName": "Expeditors International of Washington, Inc.",
+          "tickerSymbol": "EXPD"
+        },
+        {
+          "companyName": "XPO Logistics, Inc.",
+          "tickerSymbol": "XPO"
+        },
+        {
+          "companyName": "Knight-Swift Transportation Holdings Inc.",
+          "tickerSymbol": "KNX"
+        },
+        {
+          "companyName": "Old Dominion Freight Line, Inc.",
+          "tickerSymbol": "ODFL"
+        },
+        {
+          "companyName": "Kansas City Southern",
+          "tickerSymbol": "KSU"
+        },
+        {
+          "companyName": "Canadian National Railway Company",
+          "tickerSymbol": "CNR.TO"
+        },
+        {
+          "companyName": "Canadian Pacific Railway Limited",
+          "tickerSymbol": "CP.TO"
+        },
+        {
+          "companyName": "Norfolk Southern Corporation",
+          "tickerSymbol": "NSC"
+        },
+        {
+          "companyName": "Union Pacific Corporation",
+          "tickerSymbol": "UNP"
+        },
+        {
+          "companyName": "CSX Corporation",
+          "tickerSymbol": "CSX"
+        },
+        {
+          "companyName": "BNSF Railway Company",
+          "tickerSymbol": "BRK-B"
+        },
+        {
+          "companyName": "FedEx Corporation",
+          "tickerSymbol": "FDX"
+        },
+        {
+          "companyName": "United Parcel Service, Inc.",
+          "tickerSymbol": "UPS"
+        },
+        {
+          "companyName": "C.H. Robinson Worldwide, Inc.",
+          "tickerSymbol": "CHRW"
+        },
+        {
+          "companyName": "Expeditors International of Washington, Inc.",
+          "tickerSymbol": "EXPD"
+        },
+        {
+          "companyName": "XPO Logistics, Inc.",
+          "tickerSymbol": "XPO"
+        },
+        {
+          "companyName": "Knight-Swift Transportation Holdings Inc.",
+          "tickerSymbol": "KNX"
+        },
+        {
+          "companyName": "Old Dominion Freight Line, Inc.",
+          "tickerSymbol": "ODFL"
+        },
+        {
+          "companyName": "Kansas City Southern",
+          "tickerSymbol": "KSU"
+        },
+        {
+          "companyName": "Canadian National Railway Company",
+          "tickerSymbol": "CNR.TO"
+        },
+        {
+          "companyName": "Canadian Pacific Railway Limited",
+          "tickerSymbol": "CP.TO"
+        },
+        {
+          "companyName": "Norfolk Southern Corporation",
+          "tickerSymbol": "NSC"
+        },
+        {
+          "companyName": "Union Pacific Corporation",
+          "tickerSymbol": "UNP"
+        },
+        {
+          "companyName": "CSX Corporation",
+          "tickerSymbol": "CSX"
+        },
+        {
+          "companyName": "BNSF Railway Company",
+          "tickerSymbol": "BRK-B"
+        },
+        {
+          "companyName": "Uber Technologies, Inc.",
+          "tickerSymbol": "UBER"
+        },
+        {
+          "companyName": "Lyft, Inc.",
+          "tickerSymbol": "LYFT"
+        }
+      ]
+    },
+  {
+      "industry": "Retail",
+      "stocks": [
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Walmart Inc.",
+          "tickerSymbol": "WMT"
+        },
+        {
+          "companyName": "The Home Depot, Inc.",
+          "tickerSymbol": "HD"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Target Corporation",
+          "tickerSymbol": "TGT"
+        },
+        {
+          "companyName": "Lowe's Companies, Inc.",
+          "tickerSymbol": "LOW"
+        },
+        {
+          "companyName": "Alibaba Group Holding Limited",
+          "tickerSymbol": "BABA"
+        },
+        {
+          "companyName": "JD.com, Inc.",
+          "tickerSymbol": "JD"
+        },
+        {
+          "companyName": "The Kroger Co.",
+          "tickerSymbol": "KR"
+        },
+        {
+          "companyName": "The Estée Lauder Companies Inc.",
+          "tickerSymbol": "EL"
+        },
+        {
+          "companyName": "Nike, Inc.",
+          "tickerSymbol": "NKE"
+        },
+        {
+          "companyName": "TJX Companies, Inc.",
+          "tickerSymbol": "TJX"
+        },
+        {
+          "companyName": "Ross Stores, Inc.",
+          "tickerSymbol": "ROST"
+        },
+        {
+          "companyName": "Best Buy Co., Inc.",
+          "tickerSymbol": "BBY"
+        },
+        {
+          "companyName": "Coca-Cola Amatil Limited",
+          "tickerSymbol": "CCL.AX"
+        },
+        {
+          "companyName": "Wesfarmers Limited",
+          "tickerSymbol": "WES.AX"
+        },
+        {
+          "companyName": "Woolworths Group Limited",
+          "tickerSymbol": "WOW.AX"
+        },
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Walmart Inc.",
+          "tickerSymbol": "WMT"
+        },
+        {
+          "companyName": "The Home Depot, Inc.",
+          "tickerSymbol": "HD"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Target Corporation",
+          "tickerSymbol": "TGT"
+        },
+        {
+          "companyName": "Lowe's Companies, Inc.",
+          "tickerSymbol": "LOW"
+        },
+        {
+          "companyName": "Alibaba Group Holding Limited",
+          "tickerSymbol": "BABA"
+        },
+        {
+          "companyName": "JD.com, Inc.",
+          "tickerSymbol": "JD"
+        },
+        {
+          "companyName": "The Kroger Co.",
+          "tickerSymbol": "KR"
+        },
+        {
+          "companyName": "The Estée Lauder Companies Inc.",
+          "tickerSymbol": "EL"
+        },
+        {
+          "companyName": "Nike, Inc.",
+          "tickerSymbol": "NKE"
+        },
+        {
+          "companyName": "TJX Companies, Inc.",
+          "tickerSymbol": "TJX"
+        },
+        {
+          "companyName": "Ross Stores, Inc.",
+          "tickerSymbol": "ROST"
+        },
+        {
+          "companyName": "Best Buy Co., Inc.",
+          "tickerSymbol": "BBY"
+        },
+        {
+          "companyName": "Coca-Cola Amatil Limited",
+          "tickerSymbol": "CCL.AX"
+        },
+        {
+          "companyName": "Wesfarmers Limited",
+          "tickerSymbol": "WES.AX"
+        },
+        {
+          "companyName": "Woolworths Group Limited",
+          "tickerSymbol": "WOW.AX"
+        },
+        {
+          "companyName": "Foot Locker, Inc.",
+          "tickerSymbol": "FL"
+        },
+        {
+          "companyName": "Dollar General Corporation",
+          "tickerSymbol": "DG"
+        },
+        {
+          "companyName": "Kohl's Corporation",
+          "tickerSymbol": "KSS"
+        },
+        {
+          "companyName": "Macy's, Inc.",
+          "tickerSymbol": "M"
+        },
+        {
+          "companyName": "Ulta Beauty, Inc.",
+          "tickerSymbol": "ULTA"
+        },
+        {
+          "companyName": "Gap Inc.",
+          "tickerSymbol": "GPS"
+        },
+        {
+          "companyName": "J. C. Penney Company, Inc.",
+          "tickerSymbol": "JCP"
+        },
+        {
+          "companyName": "L Brands, Inc.",
+          "tickerSymbol": "LB"
+        },
+        {
+          "companyName": "Bed Bath & Beyond Inc.",
+          "tickerSymbol": "BBBY"
+        },
+        {
+          "companyName": "Dick's Sporting Goods, Inc.",
+          "tickerSymbol": "DKS"
+        },
+        {
+          "companyName": "Staples, Inc.",
+          "tickerSymbol": "SPLS"
+        },
+        {
+          "companyName": "Office Depot, Inc.",
+          "tickerSymbol": "ODP"
+        },
+        {
+          "companyName": "AutoZone, Inc.",
+          "tickerSymbol": "AZO"
+        },
+        {
+          "companyName": "Advance Auto Parts, Inc.",
+          "tickerSymbol": "AAP"
+        },
+        {
+          "companyName": "O'Reilly Automotive, Inc.",
+          "tickerSymbol": "ORLY"
+        },
+        {
+          "companyName": "Tractor Supply Company",
+          "tickerSymbol": "TSCO"
+        },
+        {
+          "companyName": "Lululemon Athletica Inc.",
+          "tickerSymbol": "LULU"
+        },
+        {
+          "companyName": "VF Corporation",
+          "tickerSymbol": "VFC"
+        },
+        {
+          "companyName": "Under Armour, Inc.",
+          "tickerSymbol": "UAA"
+        },
+        {
+          "companyName": "Abercrombie & Fitch Co.",
+          "tickerSymbol": "ANF"
+        },
+        {
+          "companyName": "American Eagle Outfitters, Inc.",
+          "tickerSymbol": "AEO"
+        },
+        {
+          "companyName": "Tiffany & Co.",
+          "tickerSymbol": "TIF"
+        },
+        {
+          "companyName": "Signet Jewelers Limited",
+          "tickerSymbol": "SIG"
+        },
+        {
+          "companyName": "The TJX Companies, Inc.",
+          "tickerSymbol": "TJX"
+        },
+        {
+          "companyName": "Burberry Group plc",
+          "tickerSymbol": "BRBY.L"
+        },
+        {
+          "companyName": "H&M Hennes & Mauritz AB",
+          "tickerSymbol": "HM-B.ST"
+        },
+        {
+          "companyName": "Inditex, S.A.",
+          "tickerSymbol": "ITX.MC"
+        },
+        {
+          "companyName": "Gap Inc.",
+          "tickerSymbol": "GPS"
+        },
+        {
+          "companyName": "J. C. Penney Company, Inc.",
+          "tickerSymbol": "JCP"
+        },
+        {
+          "companyName": "L Brands, Inc.",
+          "tickerSymbol": "LB"
+        },
+        {
+          "companyName": "Bed Bath & Beyond Inc.",
+          "tickerSymbol": "BBBY"
+        },
+        {
+          "companyName": "Dick's Sporting Goods, Inc.",
+          "tickerSymbol": "DKS"
+        },
+        {
+          "companyName": "Staples, Inc.",
+          "tickerSymbol": "SPLS"
+        },
+        {
+          "companyName": "Office Depot, Inc.",
+          "tickerSymbol": "ODP"
+        },
+        {
+          "companyName": "AutoZone, Inc.",
+          "tickerSymbol": "AZO"
+        },
+        {
+          "companyName": "Advance Auto Parts, Inc.",
+          "tickerSymbol": "AAP"
+        },
+        {
+          "companyName": "O'Reilly Automotive, Inc.",
+          "tickerSymbol": "ORLY"
+        },
+        {
+          "companyName": "Tractor Supply Company",
+          "tickerSymbol": "TSCO"
+        },
+        {
+          "companyName": "Lululemon Athletica Inc.",
+          "tickerSymbol": "LULU"
+        },
+        {
+          "companyName": "VF Corporation",
+          "tickerSymbol": "VFC"
+        },
+        {
+          "companyName": "Under Armour, Inc.",
+          "tickerSymbol": "UAA"
+        },
+        {
+          "companyName": "Abercrombie & Fitch Co.",
+          "tickerSymbol": "ANF"
+        },
+        {
+          "companyName": "American Eagle Outfitters, Inc.",
+          "tickerSymbol": "AEO"
+        },
+        {
+          "companyName": "Tiffany & Co.",
+          "tickerSymbol": "TIF"
+        },
+        {
+          "companyName": "Signet Jewelers Limited",
+          "tickerSymbol": "SIG"
+        },
+        {
+          "companyName": "The TJX Companies, Inc.",
+          "tickerSymbol": "TJX"
+        },
+        {
+          "companyName": "Burberry Group plc",
+          "tickerSymbol": "BRBY.L"
+        },
+        {
+          "companyName": "H&M Hennes & Mauritz AB",
+          "tickerSymbol": "HM-B.ST"
+        },
+        {
+          "companyName": "Inditex, S.A.",
+          "tickerSymbol": "ITX.MC"
+        }
+      ]
+    },
+  {
+      "industry": "Pharmaceutical",
+      "stocks": [
+        {
+          "companyName": "Johnson & Johnson",
+          "tickerSymbol": "JNJ"
+        },
+        {
+          "companyName": "Pfizer Inc.",
+          "tickerSymbol": "PFE"
+        },
+        {
+          "companyName": "Novartis AG",
+          "tickerSymbol": "NVS"
+        },
+        {
+          "companyName": "Roche Holding AG",
+          "tickerSymbol": "ROG.SW"
+        },
+        {
+          "companyName": "Merck & Co., Inc.",
+          "tickerSymbol": "MRK"
+        },
+        {
+          "companyName": "AbbVie Inc.",
+          "tickerSymbol": "ABBV"
+        },
+        {
+          "companyName": "AstraZeneca PLC",
+          "tickerSymbol": "AZN"
+        },
+        {
+          "companyName": "Sanofi",
+          "tickerSymbol": "SNY"
+        },
+        {
+          "companyName": "Gilead Sciences, Inc.",
+          "tickerSymbol": "GILD"
+        },
+        {
+          "companyName": "Bristol-Myers Squibb Company",
+          "tickerSymbol": "BMY"
+        },
+        {
+          "companyName": "Eli Lilly and Company",
+          "tickerSymbol": "LLY"
+        },
+        {
+          "companyName": "GlaxoSmithKline plc",
+          "tickerSymbol": "GSK"
+        },
+        {
+          "companyName": "Novo Nordisk A/S",
+          "tickerSymbol": "NVO"
+        },
+        {
+          "companyName": "Takeda Pharmaceutical Company Limited",
+          "tickerSymbol": "TAK"
+        },
+        {
+          "companyName": "Amgen Inc.",
+          "tickerSymbol": "AMGN"
+        },
+        {
+          "companyName": "Biogen Inc.",
+          "tickerSymbol": "BIIB"
+        },
+        {
+          "companyName": "Celgene Corporation",
+          "tickerSymbol": "CELG"
+        },
+        {
+          "companyName": "Vertex Pharmaceuticals Incorporated",
+          "tickerSymbol": "VRTX"
+        },
+        {
+          "companyName": "Regeneron Pharmaceuticals, Inc.",
+          "tickerSymbol": "REGN"
+        },
+        {
+          "companyName": "Alexion Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALXN"
+        },
+        {
+          "companyName": "Mylan N.V.",
+          "tickerSymbol": "MYL"
+        },
+        {
+          "companyName": "Stryker Corporation",
+          "tickerSymbol": "SYK"
+        },
+        {
+          "companyName": "Medtronic plc",
+          "tickerSymbol": "MDT"
+        },
+        {
+          "companyName": "Abbott Laboratories",
+          "tickerSymbol": "ABT"
+        },
+        {
+          "companyName": "Boston Scientific Corporation",
+          "tickerSymbol": "BSX"
+        },
+        {
+          "companyName": "Thermo Fisher Scientific Inc.",
+          "tickerSymbol": "TMO"
+        },
+        {
+          "companyName": "Johnson & Johnson",
+          "tickerSymbol": "JNJ"
+        },
+        {
+          "companyName": "Pfizer Inc.",
+          "tickerSymbol": "PFE"
+        },
+        {
+          "companyName": "Novartis AG",
+          "tickerSymbol": "NVS"
+        },
+        {
+          "companyName": "Roche Holding AG",
+          "tickerSymbol": "ROG.SW"
+        },
+        {
+          "companyName": "Merck & Co., Inc.",
+          "tickerSymbol": "MRK"
+        },
+        {
+          "companyName": "AbbVie Inc.",
+          "tickerSymbol": "ABBV"
+        },
+        {
+          "companyName": "AstraZeneca PLC",
+          "tickerSymbol": "AZN"
+        },
+        {
+          "companyName": "Sanofi",
+          "tickerSymbol": "SNY"
+        },
+        {
+          "companyName": "Gilead Sciences, Inc.",
+          "tickerSymbol": "GILD"
+        },
+        {
+          "companyName": "Bristol-Myers Squibb Company",
+          "tickerSymbol": "BMY"
+        },
+        {
+          "companyName": "Eli Lilly and Company",
+          "tickerSymbol": "LLY"
+        },
+        {
+          "companyName": "GlaxoSmithKline plc",
+          "tickerSymbol": "GSK"
+        },
+        {
+          "companyName": "Novo Nordisk A/S",
+          "tickerSymbol": "NVO"
+        },
+        {
+          "companyName": "Takeda Pharmaceutical Company Limited",
+          "tickerSymbol": "TAK"
+        },
+        {
+          "companyName": "Amgen Inc.",
+          "tickerSymbol": "AMGN"
+        },
+        {
+          "companyName": "Biogen Inc.",
+          "tickerSymbol": "BIIB"
+        },
+        {
+          "companyName": "Celgene Corporation",
+          "tickerSymbol": "CELG"
+        },
+        {
+          "companyName": "Vertex Pharmaceuticals Incorporated",
+          "tickerSymbol": "VRTX"
+        },
+        {
+          "companyName": "Regeneron Pharmaceuticals, Inc.",
+          "tickerSymbol": "REGN"
+        },
+        {
+          "companyName": "Alexion Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALXN"
+        },
+        {
+          "companyName": "Mylan N.V.",
+          "tickerSymbol": "MYL"
+        },
+        {
+          "companyName": "Stryker Corporation",
+          "tickerSymbol": "SYK"
+        },
+        {
+          "companyName": "Medtronic plc",
+          "tickerSymbol": "MDT"
+        },
+        {
+          "companyName": "Abbott Laboratories",
+          "tickerSymbol": "ABT"
+        },
+        {
+          "companyName": "Boston Scientific Corporation",
+          "tickerSymbol": "BSX"
+        },
+        {
+          "companyName": "Thermo Fisher Scientific Inc.",
+          "tickerSymbol": "TMO"
+        }
+      ]
+    },
+  {
+      "industry": "FinTech",
+      "stocks": [
+        {
+          "companyName": "Square, Inc.",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "PayPal Holdings, Inc.",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Visa Inc.",
+          "tickerSymbol": "V"
+        },
+        {
+          "companyName": "Mastercard Incorporated",
+          "tickerSymbol": "MA"
+        },
+        {
+          "companyName": "Fiserv, Inc.",
+          "tickerSymbol": "FISV"
+        },
+        {
+          "companyName": "Global Payments Inc.",
+          "tickerSymbol": "GPN"
+        },
+        {
+          "companyName": "Square, Inc.",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "PayPal Holdings, Inc.",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Visa Inc.",
+          "tickerSymbol": "V"
+        },
+        {
+          "companyName": "Mastercard Incorporated",
+          "tickerSymbol": "MA"
+        },
+        {
+          "companyName": "Fiserv, Inc.",
+          "tickerSymbol": "FISV"
+        },
+        {
+          "companyName": "Global Payments Inc.",
+          "tickerSymbol": "GPN"
+        },
+        {
+          "companyName": "American Express Company",
+          "tickerSymbol": "AXP"
+        },
+        {
+          "companyName": "Discover Financial Services",
+          "tickerSymbol": "DFS"
+        },
+        {
+          "companyName": "Alibaba Group Holding Limited",
+          "tickerSymbol": "BABA"
+        },
+        {
+          "companyName": "Tencent Holdings Limited",
+          "tickerSymbol": "TCEHY"
+        },
+        {
+          "companyName": "Ant Group Co., Ltd.",
+          "tickerSymbol": "6688.HK"
+        },
+        {
+          "companyName": "NVIDIA Corporation",
+          "tickerSymbol": "NVDA"
+        },
+        {
+          "companyName": "Advanced Micro Devices, Inc.",
+          "tickerSymbol": "AMD"
+        },
+        {
+          "companyName": "Intel Corporation",
+          "tickerSymbol": "INTC"
+        },
+        {
+          "companyName": "Cisco Systems, Inc.",
+          "tickerSymbol": "CSCO"
+        },
+        {
+          "companyName": "Oracle Corporation",
+          "tickerSymbol": "ORCL"
+        },
+        {
+          "companyName": "Salesforce.com, Inc.",
+          "tickerSymbol": "CRM"
+        },
+        {
+          "companyName": "Adobe Inc.",
+          "tickerSymbol": "ADBE"
+        },
+        {
+          "companyName": "Intuit Inc.",
+          "tickerSymbol": "INTU"
+        },
+        {
+          "companyName": "CME Group Inc.",
+          "tickerSymbol": "CME"
+        },
+        {
+          "companyName": "Intercontinental Exchange, Inc.",
+          "tickerSymbol": "ICE"
+        },
+        {
+          "companyName": "Nasdaq, Inc.",
+          "tickerSymbol": "NDAQ"
+        },
+        {
+          "companyName": "Cboe Global Markets, Inc.",
+          "tickerSymbol": "CBOE"
+        },
+        {
+          "companyName": "Charles Schwab Corporation",
+          "tickerSymbol": "SCHW"
+        },
+        {
+          "companyName": "TD Ameritrade Holding Corporation",
+          "tickerSymbol": "AMTD"
+        },
+        {
+          "companyName": "Interactive Brokers Group, Inc.",
+          "tickerSymbol": "IBKR"
+        },
+        {
+          "companyName": "Robinhood Markets, Inc.",
+          "tickerSymbol": "HOOD"
+        },
+        {
+          "companyName": "Adyen N.V.",
+          "tickerSymbol": "ADYEN.AS"
+        },
+        {
+          "companyName": "Fidelity National Information Services, Inc.",
+          "tickerSymbol": "FIS"
+        },
+        {
+          "companyName": "Worldpay, Inc.",
+          "tickerSymbol": "WP"
+        },
+        {
+          "companyName": "Paychex, Inc.",
+          "tickerSymbol": "PAYX"
+        },
+        {
+          "companyName": "Automatic Data Processing, Inc.",
+          "tickerSymbol": "ADP"
+        },
+        {
+          "companyName": "Fidelity National Financial, Inc.",
+          "tickerSymbol": "FNF"
+        },
+        {
+          "companyName": "S&P Global Inc.",
+          "tickerSymbol": "SPGI"
+        },
+        {
+          "companyName": "Moody's Corporation",
+          "tickerSymbol": "MCO"
+        },
+        {
+          "companyName": "Verisk Analytics, Inc.",
+          "tickerSymbol": "VRSK"
+        },
+        {
+          "companyName": "Square, Inc.",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "PayPal Holdings, Inc.",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Visa Inc.",
+          "tickerSymbol": "V"
+        },
+        {
+          "companyName": "Mastercard Incorporated",
+          "tickerSymbol": "MA"
+        },
+        {
+          "companyName": "Fiserv, Inc.",
+          "tickerSymbol": "FISV"
+        },
+        {
+          "companyName": "Global Payments Inc.",
+          "tickerSymbol": "GPN"
+        },
+        {
+          "companyName": "American Express Company",
+          "tickerSymbol": "AXP"
+        },
+        {
+          "companyName": "Discover Financial Services",
+          "tickerSymbol": "DFS"
+        },
+        {
+          "companyName": "Alibaba Group Holding Limited",
+          "tickerSymbol": "BABA"
+        },
+        {
+          "companyName": "Tencent Holdings Limited",
+          "tickerSymbol": "TCEHY"
+        },
+        {
+          "companyName": "Ant Group Co., Ltd.",
+          "tickerSymbol": "6688.HK"
+        },
+        {
+          "companyName": "NVIDIA Corporation",
+          "tickerSymbol": "NVDA"
+        },
+        {
+          "companyName": "Advanced Micro Devices, Inc.",
+          "tickerSymbol": "AMD"
+        },
+        {
+          "companyName": "Intel Corporation",
+          "tickerSymbol": "INTC"
+        },
+        {
+          "companyName": "Cisco Systems, Inc.",
+          "tickerSymbol": "CSCO"
+        },
+        {
+          "companyName": "Oracle Corporation",
+          "tickerSymbol": "ORCL"
+        },
+        {
+          "companyName": "Salesforce.com, Inc.",
+          "tickerSymbol": "CRM"
+        },
+        {
+          "companyName": "Adobe Inc.",
+          "tickerSymbol": "ADBE"
+        },
+        {
+          "companyName": "Intuit Inc.",
+          "tickerSymbol": "INTU"
+        },
+        {
+          "companyName": "CME Group Inc.",
+          "tickerSymbol": "CME"
+        },
+        {
+          "companyName": "Intercontinental Exchange, Inc.",
+          "tickerSymbol": "ICE"
+        },
+        {
+          "companyName": "Nasdaq, Inc.",
+          "tickerSymbol": "NDAQ"
+        },
+        {
+          "companyName": "Cboe Global Markets, Inc.",
+          "tickerSymbol": "CBOE"
+        },
+        {
+          "companyName": "Charles Schwab Corporation",
+          "tickerSymbol": "SCHW"
+        },
+        {
+          "companyName": "TD Ameritrade Holding Corporation",
+          "tickerSymbol": "AMTD"
+        },
+        {
+          "companyName": "Interactive Brokers Group, Inc.",
+          "tickerSymbol": "IBKR"
+        },
+        {
+          "companyName": "Robinhood Markets, Inc.",
+          "tickerSymbol": "HOOD"
+        },
+        {
+          "companyName": "Adyen N.V.",
+          "tickerSymbol": "ADYEN.AS"
+        },
+        {
+          "companyName": "Fidelity National Information Services, Inc.",
+          "tickerSymbol": "FIS"
+        },
+        {
+          "companyName": "Worldpay, Inc.",
+          "tickerSymbol": "WP"
+        },
+        {
+          "companyName": "Paychex, Inc.",
+          "tickerSymbol": "PAYX"
+        },
+        {
+          "companyName": "Automatic Data Processing, Inc.",
+          "tickerSymbol": "ADP"
+        },
+        {
+          "companyName": "Fidelity National Financial, Inc.",
+          "tickerSymbol": "FNF"
+        },
+        {
+          "companyName": "S&P Global Inc.",
+          "tickerSymbol": "SPGI"
+        },
+        {
+          "companyName": "Moody's Corporation",
+          "tickerSymbol": "MCO"
+        },
+        {
+          "companyName": "Verisk Analytics, Inc.",
+          "tickerSymbol": "VRSK"
+        }
+      ]
+    },
+  {
+      "industry": "E-commerce",
+      "stocks": [
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Alibaba Group Holding Limited",
+          "tickerSymbol": "BABA"
+        },
+        {
+          "companyName": "JD.com, Inc.",
+          "tickerSymbol": "JD"
+        },
+        {
+          "companyName": "eBay Inc.",
+          "tickerSymbol": "EBAY"
+        },
+        {
+          "companyName": "Shopify Inc.",
+          "tickerSymbol": "SHOP"
+        },
+        {
+          "companyName": "MercadoLibre, Inc.",
+          "tickerSymbol": "MELI"
+        },
+        {
+          "companyName": "Rakuten Group, Inc.",
+          "tickerSymbol": "RKUNY"
+        },
+        {
+          "companyName": "Zalando SE",
+          "tickerSymbol": "ZAL.DE"
+        },
+        {
+          "companyName": "Wayfair Inc.",
+          "tickerSymbol": "W"
+        },
+        {
+          "companyName": "Overstock.com, Inc.",
+          "tickerSymbol": "OSTK"
+        },
+        {
+          "companyName": "Booking Holdings Inc.",
+          "tickerSymbol": "BKNG"
+        },
+        {
+          "companyName": "Expedia Group, Inc.",
+          "tickerSymbol": "EXPE"
+        },
+        {
+          "companyName": "Trip.com Group Limited",
+          "tickerSymbol": "TCOM"
+        },
+        {
+          "companyName": "Coupang Inc.",
+          "tickerSymbol": "CPNG"
+        },
+        {
+          "companyName": "Pinduoduo Inc.",
+          "tickerSymbol": "PDD"
+        },
+        {
+          "companyName": "Walmart Inc.",
+          "tickerSymbol": "WMT"
+        },
+        {
+          "companyName": "Target Corporation",
+          "tickerSymbol": "TGT"
+        },
+        {
+          "companyName": "The Home Depot, Inc.",
+          "tickerSymbol": "HD"
+        },
+        {
+          "companyName": "Lowe's Companies, Inc.",
+          "tickerSymbol": "LOW"
+        },
+        {
+          "companyName": "Best Buy Co., Inc.",
+          "tickerSymbol": "BBY"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Etsy, Inc.",
+          "tickerSymbol": "ETSY"
+        },
+        {
+          "companyName": "Farfetch Limited",
+          "tickerSymbol": "FTCH"
+        },
+        {
+          "companyName": "MercadoLibre, Inc.",
+          "tickerSymbol": "MELI"
+        },
+        {
+          "companyName": "Rakuten Group, Inc.",
+          "tickerSymbol": "RKUNY"
+        },
+        {
+          "companyName": "Zalando SE",
+          "tickerSymbol": "ZAL.DE"
+        },
+        {
+          "companyName": "Wayfair Inc.",
+          "tickerSymbol": "W"
+        },
+        {
+          "companyName": "Overstock.com, Inc.",
+          "tickerSymbol": "OSTK"
+        },
+        {
+          "companyName": "Booking Holdings Inc.",
+          "tickerSymbol": "BKNG"
+        },
+        {
+          "companyName": "Expedia Group, Inc.",
+          "tickerSymbol": "EXPE"
+        },
+        {
+          "companyName": "Trip.com Group Limited",
+          "tickerSymbol": "TCOM"
+        },
+        {
+          "companyName": "Coupang Inc.",
+          "tickerSymbol": "CPNG"
+        },
+        {
+          "companyName": "Pinduoduo Inc.",
+          "tickerSymbol": "PDD"
+        },
+        {
+          "companyName": "Walmart Inc.",
+          "tickerSymbol": "WMT"
+        },
+        {
+          "companyName": "Target Corporation",
+          "tickerSymbol": "TGT"
+        },
+        {
+          "companyName": "The Home Depot, Inc.",
+          "tickerSymbol": "HD"
+        },
+        {
+          "companyName": "Lowe's Companies, Inc.",
+          "tickerSymbol": "LOW"
+        },
+        {
+          "companyName": "Best Buy Co., Inc.",
+          "tickerSymbol": "BBY"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Etsy, Inc.",
+          "tickerSymbol": "ETSY"
+        },
+        {
+          "companyName": "Farfetch Limited",
+          "tickerSymbol": "FTCH"
+        },
+        {
+          "companyName": "Target Corporation",
+          "tickerSymbol": "TGT"
+        },
+        {
+          "companyName": "The Home Depot, Inc.",
+          "tickerSymbol": "HD"
+        },
+        {
+          "companyName": "Lowe's Companies, Inc.",
+          "tickerSymbol": "LOW"
+        },
+        {
+          "companyName": "Best Buy Co., Inc.",
+          "tickerSymbol": "BBY"
+        },
+        {
+          "companyName": "Costco Wholesale Corporation",
+          "tickerSymbol": "COST"
+        },
+        {
+          "companyName": "Etsy, Inc.",
+          "tickerSymbol": "ETSY"
+        },
+        {
+          "companyName": "Farfetch Limited",
+          "tickerSymbol": "FTCH"
+        },
+        {
+          "companyName": "NVIDIA Corporation",
+          "tickerSymbol": "NVDA"
+        },
+        {
+          "companyName": "Adobe Inc.",
+          "tickerSymbol": "ADBE"
+        },
+        {
+          "companyName": "Salesforce.com, Inc.",
+          "tickerSymbol": "CRM"
+        },
+        {
+          "companyName": "PayPal Holdings, Inc.",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Square, Inc.",
+          "tickerSymbol": "SQ"
+        },
+        {
+          "companyName": "MercadoLibre, Inc.",
+          "tickerSymbol": "MELI"
+        },
+        {
+          "companyName": "Shopify Inc.",
+          "tickerSymbol": "SHOP"
+        },
+        {
+          "companyName": "Farfetch Limited",
+          "tickerSymbol": "FTCH"
+        },
+        {
+          "companyName": "NVIDIA Corporation",
+          "tickerSymbol": "NVDA"
+        },
+        {
+          "companyName": "Adobe Inc.",
+          "tickerSymbol": "ADBE"
+        },
+        {
+          "companyName": "Salesforce.com, Inc.",
+          "tickerSymbol": "CRM"
+        },
+        {
+          "companyName": "PayPal Holdings, Inc.",
+          "tickerSymbol": "PYPL"
+        },
+        {
+          "companyName": "Square, Inc.",
+          "tickerSymbol": "SQ"
+        }
+      ]
+    },
+  {
+      "industry": "Gaming and Entertainment",
+      "stocks": [
+        {
+          "companyName": "Activision Blizzard, Inc.",
+          "tickerSymbol": "ATVI"
+        },
+        {
+          "companyName": "Electronic Arts Inc.",
+          "tickerSymbol": "EA"
+        },
+        {
+          "companyName": "Take-Two Interactive Software, Inc.",
+          "tickerSymbol": "TTWO"
+        },
+        {
+          "companyName": "Nintendo Co., Ltd.",
+          "tickerSymbol": "NTDOY"
+        },
+        {
+          "companyName": "Sony Group Corporation",
+          "tickerSymbol": "SONY"
+        },
+        {
+          "companyName": "Microsoft Corporation",
+          "tickerSymbol": "MSFT"
+        },
+        {
+          "companyName": "Tencent Holdings Limited",
+          "tickerSymbol": "TCEHY"
+        },
+        {
+          "companyName": "NetEase, Inc.",
+          "tickerSymbol": "NTES"
+        },
+        {
+          "companyName": "Nexon Co., Ltd.",
+          "tickerSymbol": "NEXOF"
+        },
+        {
+          "companyName": "Bilibili Inc.",
+          "tickerSymbol": "BILI"
+        },
+        {
+          "companyName": "Roblox Corporation",
+          "tickerSymbol": "RBLX"
+        },
+        {
+          "companyName": "Unity Software Inc.",
+          "tickerSymbol": "U"
+        },
+        {
+          "companyName": "Zynga Inc.",
+          "tickerSymbol": "ZNGA"
+        },
+        {
+          "companyName": "NetEase, Inc.",
+          "tickerSymbol": "NTES"
+        },
+        {
+          "companyName": "Nexon Co., Ltd.",
+          "tickerSymbol": "NEXOF"
+        },
+        {
+          "companyName": "Bilibili Inc.",
+          "tickerSymbol": "BILI"
+        },
+        {
+          "companyName": "Roblox Corporation",
+          "tickerSymbol": "RBLX"
+        },
+        {
+          "companyName": "Unity Software Inc.",
+          "tickerSymbol": "U"
+        },
+        {
+          "companyName": "Zynga Inc.",
+          "tickerSymbol": "ZNGA"
+        },
+        {
+          "companyName": "AMC Entertainment Holdings, Inc.",
+          "tickerSymbol": "AMC"
+        },
+        {
+          "companyName": "Cinemark Holdings, Inc.",
+          "tickerSymbol": "CNK"
+        },
+        {
+          "companyName": "IMAX Corporation",
+          "tickerSymbol": "IMAX"
+        },
+        {
+          "companyName": "Live Nation Entertainment, Inc.",
+          "tickerSymbol": "LYV"
+        },
+        {
+          "companyName": "Sony Group Corporation",
+          "tickerSymbol": "SONY"
+        },
+        {
+          "companyName": "Microsoft Corporation",
+          "tickerSymbol": "MSFT"
+        },
+        {
+          "companyName": "Tencent Holdings Limited",
+          "tickerSymbol": "TCEHY"
+        },
+        {
+          "companyName": "AMC Entertainment Holdings, Inc.",
+          "tickerSymbol": "AMC"
+        },
+        {
+          "companyName": "Cinemark Holdings, Inc.",
+          "tickerSymbol": "CNK"
+        },
+        {
+          "companyName": "IMAX Corporation",
+          "tickerSymbol": "IMAX"
+        },
+        {
+          "companyName": "Live Nation Entertainment, Inc.",
+          "tickerSymbol": "LYV"
+        },
+        {
+          "companyName": "The Walt Disney Company",
+          "tickerSymbol": "DIS"
+        },
+        {
+          "companyName": "Comcast Corporation",
+          "tickerSymbol": "CMCSA"
+        },
+        {
+          "companyName": "Netflix, Inc.",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Baidu, Inc.",
+          "tickerSymbol": "BIDU"
+        },
+        {
+          "companyName": "Alphabet Inc.",
+          "tickerSymbol": "GOOGL"
+        },
+        {
+          "companyName": "Facebook, Inc.",
+          "tickerSymbol": "FB"
+        },
+        {
+          "companyName": "Snap Inc.",
+          "tickerSymbol": "SNAP"
+        },
+        {
+          "companyName": "The Walt Disney Company",
+          "tickerSymbol": "DIS"
+        },
+        {
+          "companyName": "Comcast Corporation",
+          "tickerSymbol": "CMCSA"
+        },
+        {
+          "companyName": "Netflix, Inc.",
+          "tickerSymbol": "NFLX"
+        },
+        {
+          "companyName": "Amazon.com, Inc.",
+          "tickerSymbol": "AMZN"
+        },
+        {
+          "companyName": "Baidu, Inc.",
+          "tickerSymbol": "BIDU"
+        },
+        {
+          "companyName": "Alphabet Inc.",
+          "tickerSymbol": "GOOGL"
+        },
+        {
+          "companyName": "Facebook, Inc.",
+          "tickerSymbol": "FB"
+        },
+        {
+          "companyName": "Snap Inc.",
+          "tickerSymbol": "SNAP"
+        },
+        {
+          "companyName": "Sea Limited",
+          "tickerSymbol": "SE"
+        },
+        {
+          "companyName": "Riot Games, Inc.",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "Ubisoft Entertainment SA",
+          "tickerSymbol": "UBSFY"
+        },
+        {
+          "companyName": "Take-Two Interactive Software, Inc.",
+          "tickerSymbol": "TTWO"
+        },
+        {
+          "companyName": "Electronic Arts Inc.",
+          "tickerSymbol": "EA"
+        },
+        {
+          "companyName": "Activision Blizzard, Inc.",
+          "tickerSymbol": "ATVI"
+        },
+        {
+          "companyName": "Sea Limited",
+          "tickerSymbol": "SE"
+        },
+        {
+          "companyName": "Riot Games, Inc.",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "Ubisoft Entertainment SA",
+          "tickerSymbol": "UBSFY"
+        }
+      ]
+    },
+  {
+      "industry": "Biotech",
+      "stocks": [
+        {
+          "companyName": "Amgen Inc.",
+          "tickerSymbol": "AMGN"
+        },
+        {
+          "companyName": "Gilead Sciences, Inc.",
+          "tickerSymbol": "GILD"
+        },
+        {
+          "companyName": "Regeneron Pharmaceuticals, Inc.",
+          "tickerSymbol": "REGN"
+        },
+        {
+          "companyName": "Vertex Pharmaceuticals Incorporated",
+          "tickerSymbol": "VRTX"
+        },
+        {
+          "companyName": "Biogen Inc.",
+          "tickerSymbol": "BIIB"
+        },
+        {
+          "companyName": "Alexion Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALXN"
+        },
+        {
+          "companyName": "CRISPR Therapeutics AG",
+          "tickerSymbol": "CRSP"
+        },
+        {
+          "companyName": "Moderna, Inc.",
+          "tickerSymbol": "MRNA"
+        },
+        {
+          "companyName": "Bluebird bio, Inc.",
+          "tickerSymbol": "BLUE"
+        },
+        {
+          "companyName": "Novavax, Inc.",
+          "tickerSymbol": "NVAX"
+        },
+        {
+          "companyName": "Intellia Therapeutics, Inc.",
+          "tickerSymbol": "NTLA"
+        },
+        {
+          "companyName": "Sarepta Therapeutics, Inc.",
+          "tickerSymbol": "SRPT"
+        },
+        {
+          "companyName": "BioNTech SE",
+          "tickerSymbol": "BNTX"
+        },
+        {
+          "companyName": "Alnylam Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALNY"
+        },
+        {
+          "companyName": "Sangamo Therapeutics, Inc.",
+          "tickerSymbol": "SGMO"
+        },
+        {
+          "companyName": "CRISPR Therapeutics AG",
+          "tickerSymbol": "CRSP"
+        },
+        {
+          "companyName": "Moderna, Inc.",
+          "tickerSymbol": "MRNA"
+        },
+        {
+          "companyName": "Bluebird bio, Inc.",
+          "tickerSymbol": "BLUE"
+        },
+        {
+          "companyName": "Novavax, Inc.",
+          "tickerSymbol": "NVAX"
+        },
+        {
+          "companyName": "Intellia Therapeutics, Inc.",
+          "tickerSymbol": "NTLA"
+        },
+        {
+          "companyName": "Sarepta Therapeutics, Inc.",
+          "tickerSymbol": "SRPT"
+        },
+        {
+          "companyName": "BioNTech SE",
+          "tickerSymbol": "BNTX"
+        },
+        {
+          "companyName": "Alnylam Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALNY"
+        },
+        {
+          "companyName": "Sangamo Therapeutics, Inc.",
+          "tickerSymbol": "SGMO"
+        },
+        {
+          "companyName": "Amgen Inc.",
+          "tickerSymbol": "AMGN"
+        },
+        {
+          "companyName": "Gilead Sciences, Inc.",
+          "tickerSymbol": "GILD"
+        },
+        {
+          "companyName": "Regeneron Pharmaceuticals, Inc.",
+          "tickerSymbol": "REGN"
+        },
+        {
+          "companyName": "Vertex Pharmaceuticals Incorporated",
+          "tickerSymbol": "VRTX"
+        },
+        {
+          "companyName": "Biogen Inc.",
+          "tickerSymbol": "BIIB"
+        },
+        {
+          "companyName": "Alexion Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALXN"
+        },
+        {
+          "companyName": "Amicus Therapeutics, Inc.",
+          "tickerSymbol": "FOLD"
+        },
+        {
+          "companyName": "Exact Sciences Corporation",
+          "tickerSymbol": "EXAS"
+        },
+        {
+          "companyName": "Genmab A/S",
+          "tickerSymbol": "GMAB"
+        },
+        {
+          "companyName": "Incyte Corporation",
+          "tickerSymbol": "INCY"
+        },
+        {
+          "companyName": "Ionis Pharmaceuticals, Inc.",
+          "tickerSymbol": "IONS"
+        },
+        {
+          "companyName": "Seattle Genetics, Inc.",
+          "tickerSymbol": "SGEN"
+        },
+        {
+          "companyName": "CRISPR Therapeutics AG",
+          "tickerSymbol": "CRSP"
+        },
+        {
+          "companyName": "Moderna, Inc.",
+          "tickerSymbol": "MRNA"
+        },
+        {
+          "companyName": "Bluebird bio, Inc.",
+          "tickerSymbol": "BLUE"
+        },
+        {
+          "companyName": "Novavax, Inc.",
+          "tickerSymbol": "NVAX"
+        },
+        {
+          "companyName": "Intellia Therapeutics, Inc.",
+          "tickerSymbol": "NTLA"
+        },
+        {
+          "companyName": "Sarepta Therapeutics, Inc.",
+          "tickerSymbol": "SRPT"
+        },
+        {
+          "companyName": "BioNTech SE",
+          "tickerSymbol": "BNTX"
+        },
+        {
+          "companyName": "Alnylam Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALNY"
+        },
+        {
+          "companyName": "Sangamo Therapeutics, Inc.",
+          "tickerSymbol": "SGMO"
+        },
+        {
+          "companyName": "CRISPR Therapeutics AG",
+          "tickerSymbol": "CRSP"
+        },
+        {
+          "companyName": "Moderna, Inc.",
+          "tickerSymbol": "MRNA"
+        },
+        {
+          "companyName": "Bluebird bio, Inc.",
+          "tickerSymbol": "BLUE"
+        },
+        {
+          "companyName": "Novavax, Inc.",
+          "tickerSymbol": "NVAX"
+        },
+        {
+          "companyName": "Intellia Therapeutics, Inc.",
+          "tickerSymbol": "NTLA"
+        },
+        {
+          "companyName": "Sarepta Therapeutics, Inc.",
+          "tickerSymbol": "SRPT"
+        },
+        {
+          "companyName": "BioNTech SE",
+          "tickerSymbol": "BNTX"
+        },
+        {
+          "companyName": "Alnylam Pharmaceuticals, Inc.",
+          "tickerSymbol": "ALNY"
+        },
+        {
+          "companyName": "Sangamo Therapeutics, Inc.",
+          "tickerSymbol": "SGMO"
+        }
+      ]
+    },
+  {
+      "industry": "Aerospace and Defense",
+      "stocks": [
+        {
+          "companyName": "Boeing Company",
+          "tickerSymbol": "BA"
+        },
+        {
+          "companyName": "Lockheed Martin Corporation",
+          "tickerSymbol": "LMT"
+        },
+        {
+          "companyName": "Northrop Grumman Corporation",
+          "tickerSymbol": "NOC"
+        },
+        {
+          "companyName": "Raytheon Technologies Corporation",
+          "tickerSymbol": "RTX"
+        },
+        {
+          "companyName": "General Dynamics Corporation",
+          "tickerSymbol": "GD"
+        },
+        {
+          "companyName": "L3Harris Technologies, Inc.",
+          "tickerSymbol": "LHX"
+        },
+        {
+          "companyName": "Bae Systems plc",
+          "tickerSymbol": "BAESY"
+        },
+        {
+          "companyName": "Airbus SE",
+          "tickerSymbol": "AIR.PA"
+        },
+        {
+          "companyName": "Thales Group",
+          "tickerSymbol": "HO.PA"
+        },
+        {
+          "companyName": "Rolls-Royce Holdings plc",
+          "tickerSymbol": "RR.L"
+        },
+        {
+          "companyName": "Safran SA",
+          "tickerSymbol": "SAF.PA"
+        },
+        {
+          "companyName": "Leonardo S.p.A.",
+          "tickerSymbol": "LDO.MI"
+        },
+        {
+          "companyName": "General Electric Company",
+          "tickerSymbol": "GE"
+        },
+        {
+          "companyName": "Honeywell International Inc.",
+          "tickerSymbol": "HON"
+        },
+        {
+          "companyName": "United Technologies Corporation",
+          "tickerSymbol": "UTX"
+        },
+        {
+          "companyName": "Boeing Company",
+          "tickerSymbol": "BA"
+        },
+        {
+          "companyName": "Lockheed Martin Corporation",
+          "tickerSymbol": "LMT"
+        },
+        {
+          "companyName": "Northrop Grumman Corporation",
+          "tickerSymbol": "NOC"
+        },
+        {
+          "companyName": "Raytheon Technologies Corporation",
+          "tickerSymbol": "RTX"
+        },
+        {
+          "companyName": "General Dynamics Corporation",
+          "tickerSymbol": "GD"
+        },
+        {
+          "companyName": "L3Harris Technologies, Inc.",
+          "tickerSymbol": "LHX"
+        },
+        {
+          "companyName": "Bae Systems plc",
+          "tickerSymbol": "BAESY"
+        },
+        {
+          "companyName": "Airbus SE",
+          "tickerSymbol": "AIR.PA"
+        },
+        {
+          "companyName": "Thales Group",
+          "tickerSymbol": "HO.PA"
+        },
+        {
+          "companyName": "Rolls-Royce Holdings plc",
+          "tickerSymbol": "RR.L"
+        },
+        {
+          "companyName": "Safran SA",
+          "tickerSymbol": "SAF.PA"
+        },
+        {
+          "companyName": "Leonardo S.p.A.",
+          "tickerSymbol": "LDO.MI"
+        },
+        {
+          "companyName": "General Electric Company",
+          "tickerSymbol": "GE"
+        },
+        {
+          "companyName": "Honeywell International Inc.",
+          "tickerSymbol": "HON"
+        },
+        {
+          "companyName": "United Technologies Corporation",
+          "tickerSymbol": "UTX"
+        },
+        {
+          "companyName": "Lockheed Martin Corporation",
+          "tickerSymbol": "LMT"
+        },
+        {
+          "companyName": "Northrop Grumman Corporation",
+          "tickerSymbol": "NOC"
+        },
+        {
+          "companyName": "Raytheon Technologies Corporation",
+          "tickerSymbol": "RTX"
+        },
+        {
+          "companyName": "General Dynamics Corporation",
+          "tickerSymbol": "GD"
+        },
+        {
+          "companyName": "L3Harris Technologies, Inc.",
+          "tickerSymbol": "LHX"
+        },
+        {
+          "companyName": "Bae Systems plc",
+          "tickerSymbol": "BAESY"
+        },
+        {
+          "companyName": "Airbus SE",
+          "tickerSymbol": "AIR.PA"
+        },
+        {
+          "companyName": "Thales Group",
+          "tickerSymbol": "HO.PA"
+        },
+        {
+          "companyName": "Rolls-Royce Holdings plc",
+          "tickerSymbol": "RR.L"
+        },
+        {
+          "companyName": "Safran SA",
+          "tickerSymbol": "SAF.PA"
+        },
+        {
+          "companyName": "Leonardo S.p.A.",
+          "tickerSymbol": "LDO.MI"
+        },
+        {
+          "companyName": "General Electric Company",
+          "tickerSymbol": "GE"
+        },
+        {
+          "companyName": "Honeywell International Inc.",
+          "tickerSymbol": "HON"
+        },
+        {
+          "companyName": "United Technologies Corporation",
+          "tickerSymbol": "UTX"
+        },
+        {
+          "companyName": "Textron Inc.",
+          "tickerSymbol": "TXT"
+        },
+        {
+          "companyName": "Huntington Ingalls Industries, Inc.",
+          "tickerSymbol": "HII"
+        },
+        {
+          "companyName": "Spirit AeroSystems Holdings, Inc.",
+          "tickerSymbol": "SPR"
+        },
+        {
+          "companyName": "HEICO Corporation",
+          "tickerSymbol": "HEI"
+        },
+        {
+          "companyName": "TransDigm Group Incorporated",
+          "tickerSymbol": "TDG"
+        },
+        {
+          "companyName": "Booz Allen Hamilton Holding Corporation",
+          "tickerSymbol": "BAH"
+        },
+        {
+          "companyName": "Curtiss-Wright Corporation",
+          "tickerSymbol": "CW"
+        },
+        {
+          "companyName": "HEICO Corporation",
+          "tickerSymbol": "HEI"
+        },
+        {
+          "companyName": "TransDigm Group Incorporated",
+          "tickerSymbol": "TDG"
+        },
+        {
+          "companyName": "Booz Allen Hamilton Holding Corporation",
+          "tickerSymbol": "BAH"
+        },
+        {
+          "companyName": "Curtiss-Wright Corporation",
+          "tickerSymbol": "CW"
+        },
+        {
+          "companyName": "Hexcel Corporation",
+          "tickerSymbol": "HXL"
+        },
+        {
+          "companyName": "Aerojet Rocketdyne Holdings, Inc.",
+          "tickerSymbol": "AJRD"
+        },
+        {
+          "companyName": "AAR Corp.",
+          "tickerSymbol": "AIR"
+        },
+        {
+          "companyName": "Kratos Defense & Security Solutions, Inc.",
+          "tickerSymbol": "KTOS"
+        },
+        {
+          "companyName": "Hexcel Corporation",
+          "tickerSymbol": "HXL"
+        },
+        {
+          "companyName": "Aerojet Rocketdyne Holdings, Inc.",
+          "tickerSymbol": "AJRD"
+        },
+        {
+          "companyName": "AAR Corp.",
+          "tickerSymbol": "AIR"
+        },
+        {
+          "companyName": "Kratos Defense & Security Solutions, Inc.",
+          "tickerSymbol": "KTOS"
+        }
+      ]
+    },
+  {
+      "industry": "Construction and Engineering",
+      "stocks": [
+        {
+          "companyName": "Bechtel Corporation",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "Fluor Corporation",
+          "tickerSymbol": "FLR"
+        },
+        {
+          "companyName": "Jacobs Engineering Group Inc.",
+          "tickerSymbol": "J"
+        },
+        {
+          "companyName": "AECOM",
+          "tickerSymbol": "ACM"
+        },
+        {
+          "companyName": "KBR, Inc.",
+          "tickerSymbol": "KBR"
+        },
+        {
+          "companyName": "Quanta Services, Inc.",
+          "tickerSymbol": "PWR"
+        },
+        {
+          "companyName": "Vinci SA",
+          "tickerSymbol": "DG.PA"
+        },
+        {
+          "companyName": "Balfour Beatty plc",
+          "tickerSymbol": "BBY.L"
+        },
+        {
+          "companyName": "Skanska AB",
+          "tickerSymbol": "SKA-B.ST"
+        },
+        {
+          "companyName": "Laing O'Rourke",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "PCL Construction",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "Kiewit Corporation",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "Fluor Corporation",
+          "tickerSymbol": "FLR"
+        },
+        {
+          "companyName": "Jacobs Engineering Group Inc.",
+          "tickerSymbol": "J"
+        },
+        {
+          "companyName": "AECOM",
+          "tickerSymbol": "ACM"
+        },
+        {
+          "companyName": "KBR, Inc.",
+          "tickerSymbol": "KBR"
+        },
+        {
+          "companyName": "Quanta Services, Inc.",
+          "tickerSymbol": "PWR"
+        },
+        {
+          "companyName": "Vinci SA",
+          "tickerSymbol": "DG.PA"
+        },
+        {
+          "companyName": "Balfour Beatty plc",
+          "tickerSymbol": "BBY.L"
+        },
+        {
+          "companyName": "Skanska AB",
+          "tickerSymbol": "SKA-B.ST"
+        },
+        {
+          "companyName": "Laing O'Rourke",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "PCL Construction",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "Kiewit Corporation",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "China Communications Construction Company Limited",
+          "tickerSymbol": "1800.HK"
+        },
+        {
+          "companyName": "CRH plc",
+          "tickerSymbol": "CRH"
+        },
+        {
+          "companyName": "Ferrovial, S.A.",
+          "tickerSymbol": "FER.MC"
+        },
+        {
+          "companyName": "ACS, Actividades de Construcción y Servicios, S.A.",
+          "tickerSymbol": "ACS.MC"
+        },
+        {
+          "companyName": "VINCI SA",
+          "tickerSymbol": "DG.PA"
+        },
+        {
+          "companyName": "Bouygues SA",
+          "tickerSymbol": "EN.PA"
+        },
+        {
+          "companyName": "Vinci SA",
+          "tickerSymbol": "DG.PA"
+        },
+        {
+          "companyName": "Balfour Beatty plc",
+          "tickerSymbol": "BBY.L"
+        },
+        {
+          "companyName": "Skanska AB",
+          "tickerSymbol": "SKA-B.ST"
+        },
+        {
+          "companyName": "Laing O'Rourke",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "PCL Construction",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "Kiewit Corporation",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "China Communications Construction Company Limited",
+          "tickerSymbol": "1800.HK"
+        },
+        {
+          "companyName": "CRH plc",
+          "tickerSymbol": "CRH"
+        },
+        {
+          "companyName": "Ferrovial, S.A.",
+          "tickerSymbol": "FER.MC"
+        },
+        {
+          "companyName": "ACS, Actividades de Construcción y Servicios, S.A.",
+          "tickerSymbol": "ACS.MC"
+        },
+        {
+          "companyName": "VINCI SA",
+          "tickerSymbol": "DG.PA"
+        },
+        {
+          "companyName": "Bouygues SA",
+          "tickerSymbol": "EN.PA"
+        },
+        {
+          "companyName": "Larsen & Toubro Limited",
+          "tickerSymbol": "LT.NS"
+        },
+        {
+          "companyName": "Daiwa House Industry Co., Ltd.",
+          "tickerSymbol": "1925.T"
+        },
+        {
+          "companyName": "Kajima Corporation",
+          "tickerSymbol": "1812.T"
+        },
+        {
+          "companyName": "Obayashi Corporation",
+          "tickerSymbol": "1802.T"
+        },
+        {
+          "companyName": "Shimizu Corporation",
+          "tickerSymbol": "1803.T"
+        },
+        {
+          "companyName": "Larsen & Toubro Limited",
+          "tickerSymbol": "LT.NS"
+        },
+        {
+          "companyName": "Daiwa House Industry Co., Ltd.",
+          "tickerSymbol": "1925.T"
+        },
+        {
+          "companyName": "Kajima Corporation",
+          "tickerSymbol": "1812.T"
+        },
+        {
+          "companyName": "Obayashi Corporation",
+          "tickerSymbol": "1802.T"
+        },
+        {
+          "companyName": "Shimizu Corporation",
+          "tickerSymbol": "1803.T"
+        },
+        {
+          "companyName": "WSP Global Inc.",
+          "tickerSymbol": "WSP.TO"
+        },
+        {
+          "companyName": "Stantec Inc.",
+          "tickerSymbol": "STN.TO"
+        },
+        {
+          "companyName": "Aecom",
+          "tickerSymbol": "ACM"
+        },
+        {
+          "companyName": "Quanta Services Inc.",
+          "tickerSymbol": "PWR"
+        },
+        {
+          "companyName": "Balfour Beatty plc",
+          "tickerSymbol": "BBY.L"
+        },
+        {
+          "companyName": "Skanska AB",
+          "tickerSymbol": "SKA-B.ST"
+        },
+        {
+          "companyName": "Laing O'Rourke",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "PCL Construction",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "Kiewit Corporation",
+          "tickerSymbol": "Private"
+        },
+        {
+          "companyName": "China Communications Construction Company Limited",
+          "tickerSymbol": "1800.HK"
+        },
+        {
+          "companyName": "CRH plc",
+          "tickerSymbol": "CRH"
+        },
+        {
+          "companyName": "Ferrovial, S.A.",
+          "tickerSymbol": "FER.MC"
+        },
+        {
+          "companyName": "ACS, Actividades de Construcción y Servicios, S.A.",
+          "tickerSymbol": "ACS.MC"
+        },
+        {
+          "companyName": "VINCI SA",
+          "tickerSymbol": "DG.PA"
+        },
+        {
+          "companyName": "Bouygues SA",
+          "tickerSymbol": "EN.PA"
+        },
+        {
+          "companyName": "Larsen & Toubro Limited",
+          "tickerSymbol": "LT.NS"
+        },
+        {
+          "companyName": "Daiwa House Industry Co., Ltd.",
+          "tickerSymbol": "1925.T"
+        },
+        {
+          "companyName": "Kajima Corporation",
+          "tickerSymbol": "1812.T"
+        },
+        {
+          "companyName": "Obayashi Corporation",
+          "tickerSymbol": "1802.T"
+        },
+        {
+          "companyName": "Shimizu Corporation",
+          "tickerSymbol": "1803.T"
+        },
+        {
+          "companyName": "WSP Global Inc.",
+          "tickerSymbol": "WSP.TO"
+        },
+        {
+          "companyName": "Stantec Inc.",
+          "tickerSymbol": "STN.TO"
+        },
+        {
+          "companyName": "Aecom",
+          "tickerSymbol": "ACM"
+        },
+        {
+          "companyName": "Quanta Services Inc.",
+          "tickerSymbol": "PWR"
+        },
+        {
+          "companyName": "KBR Inc.",
+          "tickerSymbol": "KBR"
+        },
+        {
+          "companyName": "EMCOR Group Inc.",
+          "tickerSymbol": "EME"
+        },
+        {
+          "companyName": "Aecon Group Inc.",
+          "tickerSymbol": "ARE.TO"
+        },
+        {
+          "companyName": "Granite Construction Incorporated",
+          "tickerSymbol": "GVA"
+        },
+        {
+          "companyName": "MasTec Inc.",
+          "tickerSymbol": "MTZ"
+        },
+        {
+          "companyName": "Primoris Services Corporation",
+          "tickerSymbol": "PRIM"
+        },
+        {
+          "companyName": "Quanta Services Inc.",
+          "tickerSymbol": "PWR"
+        },
+        {
+          "companyName": "KBR Inc.",
+          "tickerSymbol": "KBR"
+        },
+        {
+          "companyName": "EMCOR Group Inc.",
+          "tickerSymbol": "EME"
+        },
+        {
+          "companyName": "Aecon Group Inc.",
+          "tickerSymbol": "ARE.TO"
+        },
+        {
+          "companyName": "Granite Construction Incorporated",
+          "tickerSymbol": "GVA"
+        },
+        {
+          "companyName": "MasTec Inc.",
+          "tickerSymbol": "MTZ"
+        },
+        {
+          "companyName": "Primoris Services Corporation",
+          "tickerSymbol": "PRIM"
+        }
+      ]
+    }
+  ]

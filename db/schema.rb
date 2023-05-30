@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_30_114640) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_30_143911) do
   create_table "holdings", force: :cascade do |t|
     t.integer "User_id", null: false
     t.integer "Stock_id", null: false
@@ -20,6 +20,21 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_114640) do
     t.datetime "updated_at", null: false
     t.index ["Stock_id"], name: "index_holdings_on_Stock_id"
     t.index ["User_id"], name: "index_holdings_on_User_id"
+  end
+
+  create_table "industries", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "industry_stocks", force: :cascade do |t|
+    t.integer "industry_id", null: false
+    t.integer "stock_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["industry_id"], name: "index_industry_stocks_on_industry_id"
+    t.index ["stock_id"], name: "index_industry_stocks_on_stock_id"
   end
 
   create_table "stocks", force: :cascade do |t|
@@ -33,6 +48,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_114640) do
     t.integer "Quarterly_Revenue_Growth_YOY"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "industry_id", null: false
+    t.index ["industry_id"], name: "index_stocks_on_industry_id"
   end
 
   create_table "trades", force: :cascade do |t|
@@ -78,6 +95,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_114640) do
 
   add_foreign_key "holdings", "Stocks"
   add_foreign_key "holdings", "Users"
+  add_foreign_key "industry_stocks", "industries"
+  add_foreign_key "industry_stocks", "stocks"
+  add_foreign_key "stocks", "industries"
   add_foreign_key "trades", "Stocks"
   add_foreign_key "trades", "Users"
   add_foreign_key "watchlist_stocks", "stocks"
