@@ -7,26 +7,28 @@ Rails.application.routes.draw do
   # # For Users Controller
 
   # ## GET
+  get "user/:user_id/profile", to: "users#profile"
   # get "user/:user_id/personal_details" to: "users#personal_details"
   # get "user/:user_id/card_details" to: "users#card_details"
   # get "user/:user_id/trading_details" to: "users#trading_details"
   # get "user/:user_id/balance" to: "users#balance"
-  # get "user/:user_id/holdings/:id/news" to: "users#profile"
+  # get "user/:user_id/holdings/:id/news" to: "users#news"
+  
 
   # ## POST
-  # post "user/:user_id/personal_details" to: "users#personal_details"
-  # post "user/:user_id/card_details" to: "users#card_details"
-  # post "user/:user_id/trading_details" to: "users#trading_details"
+  # post "user/:user_id/personal_details", to: "users#personal_details"
+  # post "user/:user_id/card_details", to: "users#card_details"
+  # post "user/:user_id/trading_details", to: "users#trading_details"
 
   # ## PUT
-  # put "user/:user_id/personal_details" to: "users#personal_details"
-  # put "user/:user_id/card_details" to: "users#card_details"
-  # put "user/:user_id/trading_details" to: "users#trading_details"
+  # put "user/:user_id/personal_details", to: "users#personal_details"
+  # put "user/:user_id/card_details", to: "users#card_details"
+  # put "user/:user_id/trading_details", to: "users#trading_details"
 
   # ## DELETE
-  # delete "user/:user_id/personal_details" to: "users#personal_details"
-  # delete "user/:user_id/card_details" to: "users#card_details"
-  # delete "user/:user_id/trading_details" to: "users#trading_details"
+  # delete "user/:user_id/personal_details", to: "users#personal_details"
+  # delete "user/:user_id/card_details", to: "users#card_details"
+  # delete "user/:user_id/trading_details", to: "users#trading_details"
 
 
   # For Holdings Controller
@@ -41,9 +43,9 @@ Rails.application.routes.draw do
   # # For Watchlists Controller
 
   # ## GET
-  # get "watchlist", to: "watchlists#all_watchlists"
-  # get "watchlist/:watchlist_id", to: "watchlists#specific_watchlist"
-  # get "watchlist/:watchlist_id/:stock_id", to: "watchlists#watchlist_stock"
+  get "user/:user_id/watchlist", to: "watchlists#all_watchlists"
+  get "user/:user_id/watchlist/:watchlist_id", to: "watchlists#specific_watchlist"
+  get "user/:user_id/watchlist/:watchlist_id/:stock_id", to: "watchlists#watchlist_stock"
 
   # ## POST
   # post "watchlist/", to: "watchlists#create_watchlist"
