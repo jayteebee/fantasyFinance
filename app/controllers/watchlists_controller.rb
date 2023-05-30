@@ -1,5 +1,8 @@
 class WatchlistsController < ApplicationController
     before_action :set_user
+
+# ***** GET METHODS *****
+
 # Get all watchlists belonging to the current user
 def all_watchlists
     # @user = User.find(params[:user_id])
@@ -18,6 +21,20 @@ def watchlist_stock
     @watchlist = @user.watchlists.find(params[:watchlist_id])
     @stock = @watchlist.stocks.find(params[:stock_id])
 end
+
+
+# ***** DELETE METHODS *****
+
+def delete_watchlist
+    @watchlist = @user.watchlists.find(params[:watchlist_id])
+end
+
+def delete_watchlist_stock
+    @watchlist = @user.watchlists.find(params[:watchlist_id])
+    @stock = @watchlist.stocks.find(params[:stock_id])
+end
+
+
 
 end
 

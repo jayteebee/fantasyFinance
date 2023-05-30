@@ -26,6 +26,7 @@ Rails.application.routes.draw do
   # put "user/:user_id/trading_details", to: "users#trading_details"
 
   # ## DELETE
+  delete "user/:user_id/profile", to: "users#profile"
   # delete "user/:user_id/personal_details", to: "users#personal_details"
   # delete "user/:user_id/card_details", to: "users#card_details"
   # delete "user/:user_id/trading_details", to: "users#trading_details"
@@ -55,18 +56,16 @@ Rails.application.routes.draw do
   # put "watchlist/:watchlist_id/", to: "watchlists#update_watchlist"
 
   # ## DELETE
-  # delete "watchlist/:watchlist_id/", to: "watchlists#delete_watchlist"
-  # delete "watchlist/:watchlist_id/:stock_id", to: "watchlists#delete_watchlist_stock"
+  delete "user/:user_id/watchlist/:watchlist_id/", to: "watchlists#delete_watchlist"
+  delete "user/:user_id/watchlist/:watchlist_id/:stock_id", to: "watchlists#delete_watchlist_stock"
 
 
-  # # For Stock Controller
+  # # For Industries Controller
 
   # ## GET  
   get "industry", to: "industries#all_industries"
   get "industry/:industry_id", to: "industries#specific_industry"
   get "industry/:industry_id/:stock_id", to: "industries#specific_stock"
-
-
 
 
 end
