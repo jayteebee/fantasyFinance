@@ -58,5 +58,6 @@ Rails.application.routes.draw do
   get "industry/:industry_id", to: "industries#specific_industry"
   get "industry/:industry_id/:stock_id", to: "industries#specific_stock"
 
+  
 
 end

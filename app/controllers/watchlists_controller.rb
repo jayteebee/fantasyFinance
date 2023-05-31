@@ -1,6 +1,6 @@
 class WatchlistsController < ApplicationController
     before_action :set_user
-    skip_before_action :verify_authenticity_token, only: [:create_watchlist, :populate_watchlist]
+    skip_before_action :verify_authenticity_token, only: [:create_watchlist, :populate_watchlist, :delete_watchlist]
 
 # ***** GET METHODS *****
 
@@ -8,14 +8,21 @@ class WatchlistsController < ApplicationController
 def all_watchlists
     # @user = User.find(params[:user_id])
     @watchlist = @user.watchlists
-    render json: @watchlist
+    render json: @watchlist.to_json(include: { stocks: {except: [:created_at, :updated_at]} }) 
 end
 
 # Get a specific watchlist belonging to the current user
 def specific_watchlist
     # @user = User.find(params[:user_id])
     @watchlist = @user.watchlists.find(params[:watchlist_id])
-    render json: @watchlist
+    render json: @watchlist.to_json(include: { stocks: {except: [:created_at, :updated_at]} }) 
+end
+
+# View all stocks belonging to a watchlist belonging to the current user
+def all_watchlist_stocks
+    @watchlist = @user.watchlists.find(params[:watchlist_id])
+    @stocks = @watchlist.stocks
+    render json: @stocks
 end
 
 # Select a specific stock belonging to a specific watchlist belonging to the current user
@@ -26,12 +33,7 @@ def watchlist_stock
     render json: @stock
 end
 
-# View all stocks belonging to a watchlist belonging to the current user
-def all_watchlist_stocks
-    @watchlist = @user.watchlists.find(params[:watchlist_id])
-    @stocks = @watchlist.stocks
-    render json: @stocks
-end
+
 
 # ***** POST METHODS *****
 
@@ -61,14 +63,19 @@ end
 
 # Delete a specific watchlist belonging to the current user
 def delete_watchlist
-    @watchlist = @user.watchlists.find(params[:watchlist_id])
-    
+    @watchlist = @user.watchlists.find_by(id: params[:watchlist_id])
+    if @watchlist.present?
+        @watchlist.destroy
+        render json:  {message: "Watchlist deleted"}, status: :ok
+    else
+        render json: {error: "Watchlist not found"}, status: :not_found
+    end
 end
 
 # Delete a specific stock belonging to a specific watchlist belonging to the current user
 def delete_watchlist_stock
-    @watchlist = @user.watchlists.find(params[:watchlist_id])
-    @stock = @watchlist.stocks.find(params[:stock_id])
+    @watchlist = @user.watchlists.find_by(id: params[:watchlist_id])
+    @stock = @watchlist.stocks.find_by(params[:stock_id])
 end
 
 
