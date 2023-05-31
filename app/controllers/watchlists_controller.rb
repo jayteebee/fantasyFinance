@@ -1,6 +1,6 @@
 class WatchlistsController < ApplicationController
     before_action :set_user
-    skip_before_action :verify_authenticity_token, only: [:create_watchlist]
+    skip_before_action :verify_authenticity_token, only: [:create_watchlist, :populate_watchlist]
 
 # ***** GET METHODS *****
 
@@ -26,9 +26,15 @@ def watchlist_stock
     render json: @stock
 end
 
+def all_watchlist_stocks
+    @watchlist = @user.watchlists.find(params[:watchlist_id])
+    @stocks = @watchlist.stocks
+    render json: @stocks
+end
 
 # ***** POST METHODS *****
 
+# Create a new watchlist and assign it to a user
 def create_watchlist
     @watchlist = @user.watchlists.build(watchlist_params)
     if @watchlist.save
@@ -38,14 +44,27 @@ def create_watchlist
     end
 end
 
+#  Populate a watchlist with a stock
+def populate_watchlist
+    @watchlist = @user.watchlists.find(params[:watchlist_id])
+    @stock = Stock.find_by(symbol: params[:symbol])
+    if @watchlist.stocks << @stock
+        render json: @watchlist, status: :created
+    else
+        render json: @watchlist.errors, status: :unprocessable_entity
+    end
+end
+
 
 # ***** DELETE METHODS *****
 
+# Delete a specific watchlist belonging to the current user
 def delete_watchlist
     @watchlist = @user.watchlists.find(params[:watchlist_id])
     
 end
 
+# Delete a specific stock belonging to a specific watchlist belonging to the current user
 def delete_watchlist_stock
     @watchlist = @user.watchlists.find(params[:watchlist_id])
     @stock = @watchlist.stocks.find(params[:stock_id])

@@ -49,11 +49,13 @@ Rails.application.routes.draw do
   # ## GET
   get "user/:user_id/watchlist", to: "watchlists#all_watchlists"
   get "user/:user_id/watchlist/:watchlist_id", to: "watchlists#specific_watchlist"
+  get "user/:user_id/watchlist/:watchlist_id/stocks", to: "watchlists#all_watchlist_stocks"
   get "user/:user_id/watchlist/:watchlist_id/:symbol", to: "watchlists#watchlist_stock"
+  
 
   # ## POST
   post "user/:user_id/watchlist", to: "watchlists#create_watchlist"
-  # post "watchlist/:watchlist_id/:stock_id", to: "watchlists#populate_watchlist"
+  post "user/:user_id/watchlist/:watchlist_id/:symbol", to: "watchlists#populate_watchlist"
 
   # ## PUT
   # put "watchlist/:watchlist_id/", to: "watchlists#update_watchlist"
