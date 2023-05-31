@@ -10,16 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_30_202738) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_31_153602) do
   create_table "holdings", force: :cascade do |t|
-    t.integer "User_id", null: false
-    t.integer "Stock_id", null: false
+    t.integer "user_id", null: false
+    t.integer "stock_id", null: false
     t.integer "quantity"
     t.integer "purchase_price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["Stock_id"], name: "index_holdings_on_Stock_id"
-    t.index ["User_id"], name: "index_holdings_on_User_id"
+    t.index ["stock_id"], name: "index_holdings_on_stock_id"
+    t.index ["user_id"], name: "index_holdings_on_user_id"
   end
 
   create_table "industries", force: :cascade do |t|
@@ -93,8 +93,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_30_202738) do
     t.index ["user_id"], name: "index_watchlists_on_user_id"
   end
 
-  add_foreign_key "holdings", "Stocks"
-  add_foreign_key "holdings", "Users"
+  add_foreign_key "holdings", "Stocks", column: "stock_id"
+  add_foreign_key "holdings", "Users", column: "user_id"
   add_foreign_key "industry_stocks", "industries"
   add_foreign_key "industry_stocks", "stocks"
   add_foreign_key "trades", "Stocks"

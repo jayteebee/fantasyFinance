@@ -25,10 +25,13 @@ Rails.application.routes.draw do
 
   ## GET
   get "user/:user_id/holdings", to: "holdings#all_holdings"
+  get "user/:user_id/holdings/:stock_id", to: "holdings#specific_holding"
 
   ## POST
-  post "user/:user_id/holdings/:holding_id", to: "holdings#specific_holding"
+  post "user/:user_id/holdings", to: "holdings#create_holding"
 
+  ## DELETE
+  delete "user/:user_id/holdings/:stock_id", to: "holdings#delete_holding"
 
   # # For Watchlists Controller
 

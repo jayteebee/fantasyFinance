@@ -1,4 +1,4 @@
 class Holding < ApplicationRecord
-  belongs_to :User
-  belongs_to :Stock
+  belongs_to :user
+  belongs_to :stock
 end
