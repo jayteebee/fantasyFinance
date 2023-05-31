@@ -1,13 +1,9 @@
 class UsersController < ApplicationController
     before_action :set_user, except: [:create_profile]
-    skip_before_action :verify_authenticity_token, only: [:delete_profile, :create_profile]
+    skip_before_action :verify_authenticity_token, only: [:delete_profile, :create_profile, :update_profile]
 
 
 # **** GET METHODS ****
-
-    # def personal_details
-    #     @user = User.find(params[:user_id])
-    # end
 
 # Get all information about a user
     def show_profile
@@ -28,8 +24,20 @@ def create_profile
 end
 
 
+# **** PUT METHODS ****
+
+# Update a user profile
+def update_profile
+    if @user.update(user_params)
+        render json: @user, status: :ok 
+    else
+        render json: @user.errors, status: :unprocessable_entity
+    end
+end
+
 # ***** DELETE METHODS ****
 
+# Delete a user profile
 def delete_profile
     # @user = User.find(params[:user_id])
     @user.destroy

@@ -26,6 +26,7 @@ def watchlist_stock
     render json: @stock
 end
 
+# View all stocks belonging to a watchlist belonging to the current user
 def all_watchlist_stocks
     @watchlist = @user.watchlists.find(params[:watchlist_id])
     @stocks = @watchlist.stocks

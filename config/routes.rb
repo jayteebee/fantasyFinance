@@ -8,31 +8,17 @@ Rails.application.routes.draw do
 
   # ## GET
   get "user/:user_id/profile", to: "users#show_profile"
-  # get "user/:user_id/personal_details" to: "users#personal_details"
-  # get "user/:user_id/card_details" to: "users#card_details"
   # get "user/:user_id/trading_details" to: "users#trading_details"
-  # get "user/:user_id/balance" to: "users#balance"
   # get "user/:user_id/holdings/:id/news" to: "users#news"
-  
 
   # ## POST
   post "user/profile", to: "users#create_profile"
 
-
-  # post "user/:user_id/personal_details", to: "users#personal_details"
-  # post "user/:user_id/card_details", to: "users#card_details"
-  # post "user/:user_id/trading_details", to: "users#trading_details"
-
   # ## PUT
-  # put "user/:user_id/personal_details", to: "users#personal_details"
-  # put "user/:user_id/card_details", to: "users#card_details"
-  # put "user/:user_id/trading_details", to: "users#trading_details"
-
+  put "user/:user_id/profile", to: "users#update_profile"
+  
   # ## DELETE
   delete "user/:user_id/profile", to: "users#delete_profile"
-  # delete "user/:user_id/personal_details", to: "users#personal_details"
-  # delete "user/:user_id/card_details", to: "users#card_details"
-  # delete "user/:user_id/trading_details", to: "users#trading_details"
 
 
   # For Holdings Controller
@@ -56,9 +42,6 @@ Rails.application.routes.draw do
   # ## POST
   post "user/:user_id/watchlist", to: "watchlists#create_watchlist"
   post "user/:user_id/watchlist/:watchlist_id/:symbol", to: "watchlists#populate_watchlist"
-
-  # ## PUT
-  # put "watchlist/:watchlist_id/", to: "watchlists#update_watchlist"
 
   # ## DELETE
   delete "user/:user_id/watchlist/:watchlist_id/", to: "watchlists#delete_watchlist"
