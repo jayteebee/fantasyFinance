@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-    before_action :set_user
-    skip_before_action :verify_authenticity_token, only: [:delete_profile]
+    before_action :set_user, except: [:create_profile]
+    skip_before_action :verify_authenticity_token, only: [:delete_profile, :create_profile]
 
 
 # **** GET METHODS ****
@@ -14,6 +14,19 @@ class UsersController < ApplicationController
         #@user = User.find(params[:user_id])
         render json: @user
     end
+
+# **** POST METHODS ****
+
+# Create a new user profile
+def create_profile
+    @user = User.new(user_params)
+    if @user.save
+        render json: @user, status: :created
+    else
+        render json: @user.errors, status: :unprocessable_entity
+    end
+end
+
 
 # ***** DELETE METHODS ****
 
@@ -31,4 +44,8 @@ def set_user
     @user = User.find(params[:user_id])
 rescue ActiveRecord::RecordNotFound
     render json: { error: "User not found" }, status: :not_found
+end
+
+def user_params
+    params.require(:user).permit(:name, :age, :email, :trading_style, :experience_level, :balance)
 end
