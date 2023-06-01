@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-    # protect_from_forgery with: :null_session
+    protect_from_forgery with: :null_session
     before_action :set_user, except: [:create_profile]
     skip_before_action :verify_authenticity_token, only: [:delete_profile, :create_profile, :update_profile]
 
