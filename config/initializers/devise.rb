@@ -298,9 +298,9 @@ end
   # end
 
 #  Warden configuration
-config.warden do |manager|
-  manager.default_strategies(scope: :user).unshift :jwt
-end
+# config.warden do |manager|
+#   manager.default_strategies(scope: :user).unshift :jwt
+# end
 
   # ==> Mountable engine configurations
   # When using Devise inside an engine, let's call it `MyEngine`, and this engine
