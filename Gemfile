@@ -50,6 +50,10 @@ gem "bootsnap", require: false
 
 gem 'devise', '~> 4.9', '>= 4.9.2'
 
+gem 'devise-jwt'
+
+gem 'jsonapi-serializer'
+
 gem 'httparty'
 
 gem 'rack-cors'
