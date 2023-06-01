@@ -4,7 +4,9 @@ class AddDeviseToUsers < ActiveRecord::Migration[7.0]
   def self.up
     change_table :users do |t|
       ## Database authenticatable
-      t.string :email,              null: false, default: ""
+      
+      # Commented out email address as it already exists in my user model
+      # t.string :email,              null: false, default: ""
       t.string :encrypted_password, null: false, default: ""
 
       ## Recoverable
