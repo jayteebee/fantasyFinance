@@ -58,6 +58,21 @@ Rails.application.routes.draw do
   get "industry/:industry_id", to: "industries#specific_industry"
   get "industry/:industry_id/:stock_id", to: "industries#specific_stock"
 
-  
+
+  # For Stocks Controller
+
+  # ## GET
+  # FUNDAMENTAL DATA
+  get "user/:user_id/stocks/:ticker/news", to: "stocks#news"
+  get "user/:user_id/stocks/:ticker/overview", to: "stocks#overview"
+  get "user/:user_id/stocks/:ticker/income_statement", to: "stocks#income_statement"
+  get "user/:user_id/stocks/:ticker/balance_sheet", to: "stocks#balance_sheet"
+  get "user/:user_id/stocks/:ticker/cash_flow", to: "stocks#cash_flow"
+  get "user/:user_id/stocks/:ticker/earnings", to: "stocks#earnings"
+
+  # CORE DATA
+  get "user/:user_id/stocks/:ticker/time_series_intraday", to: "stocks#time_series_intraday"
+  get "user/:user_id/stocks/:keywords/ticker_search", to: "stocks#ticker_search"
+
 
 end
