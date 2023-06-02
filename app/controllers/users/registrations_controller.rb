@@ -73,7 +73,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
       }, status: :ok
     elsif request.method == "DELETE"
       render json: {
-        status: { code: 200, message: "Account deleted successfully."}
+        status: { code: 200, message: "SIGNPOST: Account deleted successfully."}
       }, status: :ok
     else
       render json: {

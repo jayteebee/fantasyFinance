@@ -10,7 +10,7 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
+ 
   # Defines the root path route ("/")
   # root "articles#index"
 
@@ -66,8 +66,8 @@ Rails.application.routes.draw do
   # ## GET  
   get "industry", to: "industries#all_industries"
   get "industry/:industry_id", to: "industries#specific_industry"
+  get "industry/:industry_id/stocks", to: "industries#all_stocks_from_industry"
   get "industry/:industry_id/:stock_id", to: "industries#specific_stock"
-
 
   # For Stocks Controller
 

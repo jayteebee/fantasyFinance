@@ -12,6 +12,16 @@ class IndustriesController < ApplicationController
         render json: @industry
     end 
 
+
+# Get all stocks from specific industry
+
+def all_stocks_from_industry
+    industry = Industry.find(params[:industry_id])
+    stocks = industry.stocks
+render json: stocks
+end
+
+
     # Get a specific stock within an industry
     def specific_stock
         @industry = Industry.find(params[:industry_id])
