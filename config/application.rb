@@ -13,6 +13,7 @@ module FantasyFinance
     # config.api_only = true
 
 
+
     # Github repo solution - didn't work
 
     # config.session_store :cookie_store, key: '_interslice_session'

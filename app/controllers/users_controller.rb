@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
     protect_from_forgery with: :null_session
-    before_action :set_user, except: [:create_profile]
+    before_action :set_user, except: [:create_profile] 
     skip_before_action :verify_authenticity_token, only: [:delete_profile, :create_profile, :update_profile]
 
 
@@ -8,7 +8,7 @@ class UsersController < ApplicationController
 
 # Get all information about a user
     def show_profile
-        #@user = User.find(params[:user_id])
+        # @user = User.find(params[:user_id])
         render json: @user
     end
 
