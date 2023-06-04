@@ -12,11 +12,22 @@ The time frame for this project was 2 weeks.
 
 ## Technologies Used
 
+### API's
+
+- AlphaVantage
+
 ###  Back End
 
 - Ruby On Rails
 - HTTParty
 - Devise
+
+### Front End
+
+- React
+- React Dom
+- JavaScript
+- Axios
 
 ## Brief
 
@@ -40,6 +51,7 @@ The brief for this project was as follows:
 - DRY (Don't Repeat Yourself) code
 
 #### Use one of these technology stacks. You may choose which tech stack.
+
 - Full-Stack Rails App
 - Rails API with React Front-End
 - Express API with React Front-End
@@ -131,6 +143,8 @@ end
 
 ## Build/Code Process
 
+### Back End
+
 Building out the routes and controllers for the application was a really enjoyable yet challenging part of the project for me.
 
 Whilst back end coding certainly comes more intuitively to me, it wasn't without it's challenges!
@@ -164,7 +178,52 @@ def populate_watchlist
 end
 ```
 
+### Front End
+
+#### Consuming the API Endpoints
+
+Maxing use of the Axios package to manage API calls was the first thing I did on the front end after setting up the boilerplate code.
+
+I opted to use Axios rather than the inbuilt 'fetch' syntax because the format is far more intuitive to me. Furthermore, being able to set up an axiosInstance (see below) made the readability easier.
+
+As for the actual implementation, the createUser function below was quite a painstaking process! It was the first time in trying to hook up Axios with the Devise gem in the back end, and also the first time configuring anything in Local Storage. 
+
+Understanding the sequencing, specifically when the token is created and when it must be saved to local storage, took quite a lot of thinking and research. I played around with including a headers/authorization token in the axiosInstance along with structuring it as you see below.
+
+```js
+export const createUser = async (userData) => {
+    if (!userData) {
+        return
+    } else {
+    console.log("USER DATA: ",userData);
+    const response = await axiosInstance.post("/signup",{user: userData});
+    console.log("TOKEN: ", response.headers.authorization);
+    if (response.headers.authorization) {
+        window.localStorage.setItem("token", response.headers.authorization);
+
+    }
+    return response.data;
+}}
+```
+
+```js
+// Configuring the Axios Instance for the API
+
+import axios from 'axios';
+
+const axiosInstance = axios.create({
+    baseURL: "http://localhost:4000",
+    headers: {
+        'Content-Type': 'application/json'
+    },
+});
+
+export default axiosInstance;
+```
+
 ##  Challenges
+
+### Back End
 
 Setting up this route/action was quite the challenge. Initially I wasn't mapping over the holdings variable and instead was just returning the holdings object which represents the model.
 
@@ -204,4 +263,32 @@ end
         render json: holdings_with_stocks
     
 end
+```
+
+###  Front End
+
+Building on the createUser function discussed earlier, I faced a rather elusive challenge when testing the functionality.
+
+My initial strategy for testing this function was to pass the userData via consoleLog. The problem was that even though I was setting unique values for each field, i'd get an error message explaining duplicate information wasn't valid!
+
+After making sure that the routes and actions in the back end were correct, I found the issue was due to the inbuilt Strict Mode in React, which was causing the request to be sent twice with the same information. After commenting those lines out in index.js, everything worked as expected.
+
+The lesson I learned here was to think past what may seem to be the most convienient soltuin for testing, and use the testing method which most closely represents the result I want to achieve.
+
+For example, I should have built a 'bare bones' form and use that to submit the test rather than the consoleLog.
+
+```js
+export const createUser = async (userData) => {
+    if (!userData) {
+        return
+    } else {
+    console.log("USER DATA: ",userData);
+    const response = await axiosInstance.post("/signup",{user: userData});
+    console.log("TOKEN: ", response.headers.authorization);
+    if (response.headers.authorization) {
+        window.localStorage.setItem("token", response.headers.authorization);
+
+    }
+    return response.data;
+}}
 ```

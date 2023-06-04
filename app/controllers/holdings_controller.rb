@@ -1,6 +1,7 @@
 class HoldingsController < ApplicationController
-before_action :set_user, :authenticate_user!
-skip_before_action :verify_authenticity_token, only: [:create_holding, :all_holdings, :delete_holding]
+before_action :set_user
+# :authenticate_user!
+# skip_before_action :verify_authenticity_token, only: [:create_holding, :all_holdings, :delete_holding]
 
 #  ***** GET METHODS *****
 

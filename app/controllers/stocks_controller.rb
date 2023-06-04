@@ -1,6 +1,6 @@
 require 'httparty'
 class StocksController < ApplicationController
-    before_action :authenticate_user!
+    # before_action :authenticate_user!
     ALPHA_VANTAGE_API_KEY = "Q11V8QASSGC4XDKB"
 
     # FUNDAMENTAL DATA

@@ -1,6 +1,7 @@
 class WatchlistsController < ApplicationController
-    before_action :set_user, :authenticate_user!
-    skip_before_action :verify_authenticity_token, only: [:create_watchlist, :populate_watchlist, :delete_watchlist]
+    before_action :set_user
+    # :authenticate_user!
+    # skip_before_action :verify_authenticity_token, only: [:create_watchlist, :populate_watchlist, :delete_watchlist]
 
 # ***** GET METHODS *****
 
