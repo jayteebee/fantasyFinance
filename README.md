@@ -25,9 +25,10 @@ The time frame for this project was 2 weeks.
 ### Front End
 
 - React
-- React Dom
+- React Router Dom
 - JavaScript
 - Axios
+- Bootstrap
 
 ## Brief
 
