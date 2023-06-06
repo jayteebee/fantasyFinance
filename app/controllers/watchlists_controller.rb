@@ -91,5 +91,7 @@ rescue ActiveRecord::RecordNotFound
 end
 
 def watchlist_params
-    params.require(:watchlist).permit(:name, :stock_name, :stock_symbol)
+    params.require(:watchlist).permit(:name, :stock_name, :stock_symbol, :company_name, :exchange, :sector, :market_capitalization, :description, :Quarterly_Earnings_Growth_YOY, :Quarterly_Revenue_Growth_YOY)
 end
+
+# 

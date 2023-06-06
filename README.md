@@ -222,6 +222,45 @@ const axiosInstance = axios.create({
 export default axiosInstance;
 ```
 
+Another part of the build process I had a lot of fun doing was using the reduce function on the returned data from one of my API calls.
+
+As you can see below from the small code snipped I've provided, the data was formatted via "fiscalDateEnding". Doing a pure map over the object resulted in getting all the key value pairs for each discal date, which was quite a lot...
+
+All I wanted for the purposes of my project was to provide the latest information. 
+
+The first step was to look up the various methods available to me, I had skimmed through "find" and nested "maps" before deciding to use "reduce".
+In the code block you can see that I'm comparing the accumulated "a" fiscal date against the current "c" fiscal date, and if A is greater than C then it'll return the object with the larger (later) fiscal date, thus giving me the latest informations.
+
+For sake of ease, I wrapped the entire code block in an array so that I could map over it and pull out the required fields, such as totalRevenue etc...
+
+```js
+// CODE SAMPLE
+{showAnalysisData
+            ? [
+                analysisIncomeStatement.annualReports.reduce(
+                  (a, c) => (a.fiscalDateEnding > c.fiscalDateEnding ? a : c),
+                  {}
+                ),
+              ].map((report) => (
+                <div key={`income-statement-${report.id}`}>
+                  <h2>Income Statement</h2>
+```
+
+```js
+// DATA SAMPLE
+{
+symbol: "IBM",
+annualReports: [
+{
+    fiscalDateEnding: "2022-12-31",
+    reportedCurrency: "USD",
+    grossProfit: "32687000000",
+    totalRevenue: "60530000000",
+    costOfRevenue: "27842000000",
+}]
+}
+```
+
 ##  Challenges
 
 ### Back End
