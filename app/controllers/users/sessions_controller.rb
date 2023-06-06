@@ -2,7 +2,7 @@
 
 class Users::SessionsController < Devise::SessionsController
   include RackSessionFix
-  # before_action :authenticate_user!
+  before_action :authenticate_user!
   # skip_before_action :verify_authenticity_token, only: [:create]
   respond_to :json
   before_action :configure_sign_in_params, only: [:create]

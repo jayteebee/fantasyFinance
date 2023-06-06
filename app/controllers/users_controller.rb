@@ -45,6 +45,8 @@ def delete_profile
     render json: {message: "User deleted"}
 end
 
+
+
 end
 
 private
@@ -56,5 +58,5 @@ rescue ActiveRecord::RecordNotFound
 end
 
 def user_params
-    params.require(:user).permit(:name, :age, :email, :trading_style, :experience_level, :balance)
+    params.require(:user).permit(:name, :age, :email, :trading_style, :experience_level, :balance, :card_type, :firstname, :lastname, :cc, :valid_date, :cvc)
 end

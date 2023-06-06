@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_01_095403) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_05_092907) do
   create_table "holdings", force: :cascade do |t|
     t.integer "user_id", null: false
     t.integer "stock_id", null: false
@@ -77,6 +77,12 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_01_095403) do
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.string "jti", null: false
+    t.string "card_type"
+    t.string "firstname"
+    t.string "lastname"
+    t.string "cc"
+    t.string "valid_date"
+    t.string "cvc"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["jti"], name: "index_users_on_jti", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true

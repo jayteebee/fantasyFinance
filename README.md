@@ -293,3 +293,43 @@ export const createUser = async (userData) => {
     return response.data;
 }}
 ```
+
+Another challenge I faced was managing state. At the beginning of the project I hadn't planned to use state management tools such as useContext or a third party library such as Redux. However moving forward I will definitely make use of these tools.
+
+The biggest challenege with state management I encountered was having a users balance update inline with their stock transactions. This was because the component where a user could buy stocks was nested 4 components deep into a different branch than the component where balance was managed.
+
+Whilst i had set up a useEffect to watch state changes within the balance component, it would only re-render the changes made by a user withdrawing or depositing funds, not from a transaction.
+
+To solve this issue, I created a state in their closest parent component, which happened to be App.js. 
+
+```js
+  const [updatedBalance, setUpdatedBalance] = useState(false);
+
+```
+
+I would then begin a series of prop drilling. Sending setUpdatedBalance through 4 components to land at buyStocks, where I could trigger a state change as below:
+
+```js
+  const updateBalance = async (userID, newBalance) => {
+    const balanceUpdate = await updateUserInfo(userID, {balance: newBalance})
+
+    // State updated here...
+    setUpdatedBalance(prevState => !prevState)
+    console.log("Balance Updated Succesfully. Balance is now: ",balanceUpdate.balance)
+  }
+```
+
+On the other side of the tree, I would drill updatedBalance through to the Balance component and into the useEffect watching for balance changes.
+
+```js
+useEffect(() => {
+    getAllUserInfo(userID)
+      .then((data) => {
+        setUserInfo(data);
+        setBalance(data.balance);
+      })
+      .catch((err) => console.log("API Call Failed", err));
+  }, [userID, updatedBalance]);
+```
+
+Whilst this did solve the issue, it's not a particularly elegant solution and definitely something I will amend in the future.
