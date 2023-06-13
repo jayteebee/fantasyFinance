@@ -372,3 +372,34 @@ useEffect(() => {
 ```
 
 Whilst this did solve the issue, it's not a particularly elegant solution and definitely something I will amend in the future.
+
+
+## Wins
+
+One feature that I had a lot of fun building as well as facing challenging issues with was the Balance component and all associated tie in functions.
+
+I knew that I wanted to have the balance update automatically when the user affected it, and I knew I wanted it to always be visible. As I've already covered above, there were several issues with making sure it'd update without a page refresh. Overcoming this however was really satisfying. For me, it was one of those smaller features where having it added a lot to the look and feel of the whole app.
+
+Another win was making sure I had enough time to style the project. Although I wasn't able to get the styling to a point where I wanted it to be for the end of the project (all pages with consistent styling), I was still happy with the end result.
+
+Another big win for me was getting the Devise authentication up and running consistently, being able to save the tokens to local storage and making sure the current user was recognisable.
+
+## Bugs
+
+Throughout the build process I tried my best to keep the amount of bugs there were to an absolute minimum. What I mean by that, is i would test out a new feature as soon as it was made, and then upon making one more feature, testing both to make sure that there weren't any unintended side effects.
+
+Unfortunately, a few bugs did creep in.
+
+The smallest, yet most impactful bug was that after logging in a user should have the NavBar revealed to them. Due to the state not updating immediately after logging in the ternary operator watching the "logged in" state didn't have any new data to work with, and subsequently the user wouldn't be able to navigate the site.
+
+There were a few "run on" bugs caused by the same issue. For example, if a user decided to immediately log out after logging in, they would receive an error.
+
+## Future Improvements
+
+I intend to continue working on this project as I believe I will be able to add features and showcase new skills fairly well.
+
+I will;
+- Add Analytical graphs, charts and forecasts.
+- Improve log in functionality (social accounts etc)
+- Improve the styling
+
