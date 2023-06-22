@@ -4,7 +4,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     if Rails.env.production?
       origins 'https://fantasy-finance-fe-416b523c0162.herokuapp.com'  # Heroku frontend URL
     else
-      origins 'http://localhost:3000'  # localhost URL for development
+      origins 'http://localhost:4000'  # localhost URL for development
     end
 
     resource(
