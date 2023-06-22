@@ -9,7 +9,7 @@ require 'open-uri'
 
 # seed_data = JSON.parse(File.read('db/seed_data.json'))
 seed_data_url = "https://api.npoint.io/ab7a1f3f7198be8ea153"
-seed_data = JSON.parse(open(seed_data_url).read)
+seed_data = JSON.parse(URI.open(seed_data_url).read)
 
 seed_data.each do |industry_data|
     
