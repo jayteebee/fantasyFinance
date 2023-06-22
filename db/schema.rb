@@ -11,9 +11,12 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2023_06_05_092907) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "holdings", force: :cascade do |t|
-    t.integer "user_id", null: false
-    t.integer "stock_id", null: false
+    t.bigint "user_id", null: false
+    t.bigint "stock_id", null: false
     t.integer "quantity"
     t.integer "purchase_price"
     t.datetime "created_at", null: false
@@ -29,8 +32,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_05_092907) do
   end
 
   create_table "industry_stocks", force: :cascade do |t|
-    t.integer "industry_id", null: false
-    t.integer "stock_id", null: false
+    t.bigint "industry_id", null: false
+    t.bigint "stock_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["industry_id"], name: "index_industry_stocks_on_industry_id"
@@ -51,16 +54,16 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_05_092907) do
   end
 
   create_table "trades", force: :cascade do |t|
-    t.integer "User_id", null: false
-    t.integer "Stock_id", null: false
+    t.bigint "user_id", null: false
+    t.bigint "stock_id", null: false
     t.string "trade_type"
     t.integer "trade_price"
     t.integer "quantity"
     t.datetime "trade_timestamp"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["Stock_id"], name: "index_trades_on_Stock_id"
-    t.index ["User_id"], name: "index_trades_on_User_id"
+    t.index ["stock_id"], name: "index_trades_on_stock_id"
+    t.index ["user_id"], name: "index_trades_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -89,8 +92,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_05_092907) do
   end
 
   create_table "watchlist_stocks", force: :cascade do |t|
-    t.integer "watchlist_id", null: false
-    t.integer "stock_id", null: false
+    t.bigint "watchlist_id", null: false
+    t.bigint "stock_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["stock_id"], name: "index_watchlist_stocks_on_stock_id"
@@ -103,16 +106,16 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_05_092907) do
     t.string "stock_symbol"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id", null: false
+    t.bigint "user_id", null: false
     t.index ["user_id"], name: "index_watchlists_on_user_id"
   end
 
-  add_foreign_key "holdings", "Stocks", column: "stock_id"
-  add_foreign_key "holdings", "Users", column: "user_id"
+  add_foreign_key "holdings", "stocks"
+  add_foreign_key "holdings", "users"
   add_foreign_key "industry_stocks", "industries"
   add_foreign_key "industry_stocks", "stocks"
-  add_foreign_key "trades", "Stocks"
-  add_foreign_key "trades", "Users"
+  add_foreign_key "trades", "stocks"
+  add_foreign_key "trades", "users"
   add_foreign_key "watchlist_stocks", "stocks"
   add_foreign_key "watchlist_stocks", "watchlists"
   add_foreign_key "watchlists", "users"
