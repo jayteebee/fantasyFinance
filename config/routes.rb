@@ -85,6 +85,6 @@ Rails.application.routes.draw do
   get "user/:user_id/stocks/:keywords/ticker_search", to: "stocks#ticker_search"
 
 
-  match '/login', to: 'sessions#handle_options_request', via: :options
+  match 'login', to: 'sessions#handle_options_request', via: :options
 
 end
