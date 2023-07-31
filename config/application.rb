@@ -26,6 +26,14 @@ module FantasyFinance
     # end
     # config.middleware.use config.session_store, config.session_options
 
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins 'https://fantasy-finance-fe-416b523c0162.herokuapp.com'
+        resource '*', headers: :any, methods: [:get, :post, :options, :delete, :put, :patch], credentials: true
+      end
+    end
+
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
