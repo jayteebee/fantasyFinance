@@ -26,12 +26,12 @@ module FantasyFinance
     # end
     # config.middleware.use config.session_store, config.session_options
 
-    config.middleware.insert_before 0, Rack::Cors do
-      allow do
-        origins '*'
-        resource '*', headers: :any, methods: [:get, :post, :options, :delete, :put, :patch]
-      end
-    end
+    # config.middleware.insert_before 0, Rack::Cors do
+    #   allow do
+    #     origins '*'
+    #     resource '*', headers: :any, methods: [:get, :post, :options, :delete, :put, :patch]
+    #   end
+    # end
 
 config.load_defaults 7.0
     # Configuration for the application, engines, and railties goes here.
