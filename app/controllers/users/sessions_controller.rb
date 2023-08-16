@@ -32,12 +32,12 @@ end
   end
 
 
-  def handle_options_request
-    headers['Access-Control-Allow-Origin'] = 'https://fantasy-finance-fe-416b523c0162.herokuapp.com'
-    headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS, DELETE, PUT, PATCH'
-    headers['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept, Authorization'
-    head :ok
-  end
+  # def handle_options_request
+  #   headers['Access-Control-Allow-Origin'] = 'https://fantasy-finance-fe-416b523c0162.herokuapp.com'
+  #   headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS, DELETE, PUT, PATCH'
+  #   headers['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept, Authorization'
+  #   head :ok
+  # end
 
   private
 
