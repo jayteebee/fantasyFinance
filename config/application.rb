@@ -28,7 +28,7 @@ module FantasyFinance
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins ENV['CORS_ALLOWED_ORIGIN']
+        origins '*'
         resource '*', headers: :any, methods: [:get, :post, :options, :delete, :put, :patch]
       end
     end
